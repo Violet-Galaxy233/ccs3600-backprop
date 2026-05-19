@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CCS3600 — Backpropagation Trilingual Showcase
 
-## Getting Started
+The final presentation form of the CCS3600 *AI-Assisted Teaching Content
+Enhancement* mini-project (Topic 10: Back Propagation). It unifies every
+deliverable into one responsive, trilingual website.
 
-First, run the development server:
+**Languages:** English · 简体中文 · Bahasa Melayu (language switcher; English
+fallback for any not-yet-finalized strings).
+
+## Pages
+
+| Page | Content |
+|---|---|
+| Home | Overview of all deliverables |
+| Lecture | The enhanced 22-slide deck rebuilt as native, responsive sections with KaTeX formulas |
+| Video | The ~18-minute AI-narrated lecture video |
+| Quiz | 20-question auto-graded quiz with instant feedback, explanations and a live score |
+| Resources | Download the enhanced PPTX and the PDF |
+| Report | Phase 1 — AI tools & workflow report |
+| Prompts | Phase 1 — prompt examples used in the AI pipeline |
+| Making-Of | Phase 2 — how this website itself was planned and built (new tool-use report + prompts) |
+
+## Tech
+
+Next.js 16 (App Router) · next-intl · Tailwind CSS v4 · KaTeX · react-markdown.
+Deployed on Vercel. Quiz grading is fully client-side.
+
+## Local development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000  → redirects to /en
+npm run build    # production build
+npm start        # serve the production build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Notes
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- The lecture video is re-encoded with ffmpeg to fit GitHub's 100 MB file
+  limit; the source 207 MB master is intentionally not committed.
+- The video source is pluggable via `content/site.ts` (in-repo file or a
+  YouTube embed) — no component changes needed to switch.
+- The assignment brief and raw source decks are intentionally excluded
+  (`.gitignore`) for academic-integrity reasons.
