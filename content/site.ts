@@ -22,7 +22,7 @@ export const site = {
     },
     pdf: {
       href: "/downloads/back-propagation-slides.pdf",
-      size: "1 MB",
+      size: "9 MB",
     },
   },
   facts: {

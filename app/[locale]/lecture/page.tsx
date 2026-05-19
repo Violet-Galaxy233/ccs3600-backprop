@@ -1,7 +1,8 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Container from "@/components/Container";
+import Math from "@/components/Math";
 import { lecture } from "@/content/lecture/lecture";
-import type { PartId } from "@/content/lecture/types";
+import type { LectureBlock, PartId } from "@/content/lecture/types";
 import { pickLang } from "@/lib/i18n-content";
 
 const PART_ORDER: PartId[] = [
@@ -12,6 +13,73 @@ const PART_ORDER: PartId[] = [
 ];
 
 const slideSrc = (n: number) => `/slides/${String(n).padStart(2, "0")}.svg`;
+
+function Block({ block, locale }: { block: LectureBlock; locale: string }) {
+  switch (block.type) {
+    case "paragraph":
+      return (
+        <p className="leading-relaxed text-fg-muted">
+          {pickLang(block.text, locale)}
+        </p>
+      );
+    case "list":
+      return (
+        <ul className="list-disc space-y-1.5 pl-5 text-fg-muted">
+          {block.items.map((it, i) => (
+            <li key={i}>{pickLang(it, locale)}</li>
+          ))}
+        </ul>
+      );
+    case "steps":
+      return (
+        <ol className="list-decimal space-y-1.5 pl-5 text-fg-muted marker:font-semibold marker:text-cyan">
+          {block.steps.map((it, i) => (
+            <li key={i}>{pickLang(it, locale)}</li>
+          ))}
+        </ol>
+      );
+    case "math":
+      return <Math tex={block.tex} />;
+    case "callout":
+      return (
+        <div
+          className={`rounded-xl border-l-4 px-4 py-3 ${
+            block.variant === "key"
+              ? "border-cyan bg-cyan/5"
+              : "border-violet bg-violet/5"
+          }`}
+        >
+          <p className="text-sm text-fg">{pickLang(block.text, locale)}</p>
+        </div>
+      );
+    case "compare":
+      return (
+        <div className="grid gap-3 sm:grid-cols-2">
+          {(
+            [
+              { title: block.leftTitle, items: block.left },
+              { title: block.rightTitle, items: block.right },
+            ] as const
+          ).map((col, i) => (
+            <div key={i} className="rounded-xl border border-border p-4">
+              <p className="mb-2 font-semibold text-fg">
+                {pickLang(col.title, locale)}
+              </p>
+              <ul className="list-disc space-y-1 pl-5 text-sm text-fg-muted">
+                {col.items.map((it, j) => (
+                  <li key={j}>{pickLang(it, locale)}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      );
+    case "reference":
+      return <p className="text-sm italic text-fg-muted">↳ {block.cite}</p>;
+    default:
+      return null;
+  }
+}
 
 export default async function LecturePage({
   params,
@@ -77,6 +145,8 @@ export default async function LecturePage({
                         {t("slideRef", { n: s.slideRef })}
                       </span>
                     </div>
+
+                    {/* The actual redesigned slide — click to open full size */}
                     <a
                       href={slideSrc(s.slideRef)}
                       target="_blank"
@@ -94,6 +164,13 @@ export default async function LecturePage({
                         className="aspect-video w-full"
                       />
                     </a>
+
+                    {/* Trilingual key points for this slide */}
+                    <div className="space-y-4 px-6 py-6 sm:px-8">
+                      {s.body.map((b, i) => (
+                        <Block key={i} block={b} locale={locale} />
+                      ))}
+                    </div>
                   </article>
                 ))}
               </div>
