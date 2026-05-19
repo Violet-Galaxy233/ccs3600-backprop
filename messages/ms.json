@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Perambatan Balik — Pameran Interaktif CCS3600",
+    "description": "Pakej pembelajaran interaktif tiga bahasa berbantukan AI tentang Perambatan Balik dalam Rangkaian Neural: kuliah, video, kuiz auto-gred, dan laporan alat & aliran kerja AI."
+  },
+  "common": {
+    "brand": "Perambatan Balik",
+    "courseCode": "CCS3600",
+    "projectTitle": "Projek Penambahbaikan Kandungan Pengajaran Berbantukan AI",
+    "language": "Bahasa",
+    "skipToContent": "Langkau ke kandungan",
+    "backToTop": "Kembali ke atas",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu"
+  },
+  "nav": {
+    "home": "Utama",
+    "lecture": "Kuliah",
+    "video": "Video",
+    "quiz": "Kuiz",
+    "resources": "Sumber",
+    "report": "Laporan",
+    "prompts": "Gesaan",
+    "makingOf": "Proses Pembuatan"
+  },
+  "footer": {
+    "tagline": "Dipertingkatkan dengan alat AI untuk projek mini CCS3600.",
+    "originalCredit": "Kuliah asal oleh Maslina @ SSK5603. Kandungan disemak dan disahkan oleh pasukan projek.",
+    "builtWith": "Dibina dengan Next.js · Dihoskan di Vercel"
+  },
+  "banner": {
+    "translationInProgress": "Halaman ini dipaparkan dalam bahasa Inggeris apabila terjemahan {locale} belum dimuktamadkan.",
+    "dismiss": "Tutup"
+  },
+  "home": {
+    "kicker": "CCS3600 · Kecerdasan Buatan",
+    "title": "Perambatan Balik dalam Rangkaian Neural",
+    "subtitle": "Algoritma yang membolehkan pembelajaran mendalam moden — diterangkan sebagai pakej pembelajaran interaktif tiga bahasa.",
+    "ctaLecture": "Mula kuliah",
+    "ctaQuiz": "Ambil kuiz",
+    "overviewTitle": "Terokai setiap bahagian",
+    "overviewSubtitle": "Setiap hasil projek, dipersembahkan secara intuitif di satu tempat.",
+    "cards": {
+      "lecture": {
+        "title": "Kuliah Interaktif",
+        "desc": "22 slaid dipertingkat dibina semula sebagai bahagian responsif dengan formula dan rajah."
+      },
+      "video": {
+        "title": "Video Kuliah",
+        "desc": "Video panduan ~18 minit bersuara AI bagi keseluruhan topik."
+      },
+      "quiz": {
+        "title": "Kuiz Auto-Gred",
+        "desc": "20 soalan dengan maklum balas serta-merta, penjelasan dan skor langsung."
+      },
+      "resources": {
+        "title": "Slaid & Sumber",
+        "desc": "Muat turun deck slaid dipertingkat (PPTX) dan PDF yang dieksport."
+      },
+      "report": {
+        "title": "Alat & Aliran Kerja",
+        "desc": "Cara alat AI digunakan secara bertanggungjawab untuk membina pakej ini."
+      },
+      "prompts": {
+        "title": "Contoh Gesaan",
+        "desc": "Gesaan sebenar yang digunakan merentas saluran berbantukan AI."
+      }
+    },
+    "factsTitle": "Sekilas pandang",
+    "facts": {
+      "slides": "Slaid dipertingkat",
+      "videoLen": "Panjang video",
+      "questions": "Soalan kuiz",
+      "languages": "Bahasa"
+    }
+  },
+  "lecture": {
+    "title": "Kuliah Interaktif",
+    "intro": "Deck 22 slaid dipertingkat, dibina semula sebagai kandungan asli yang responsif. Gunakan rangka untuk melompat antara empat bahagian.",
+    "outline": "Rangka",
+    "slideRef": "Slaid {n}",
+    "parts": {
+      "foundations": "Bahagian I · Asas",
+      "theory": "Bahagian II · Teori & Matematik",
+      "applications": "Bahagian III · Aplikasi Dunia Sebenar",
+      "evaluation": "Bahagian IV · Penilaian"
+    }
+  },
+  "video": {
+    "title": "Video Kuliah",
+    "intro": "Panduan bersuara AI bagi keseluruhan topik Perambatan Balik, dijana daripada slaid dipertingkat.",
+    "duration": "Tempoh",
+    "unsupported": "Pelayar anda tidak boleh memainkan video ini. Anda boleh memuat turunnya di bawah.",
+    "download": "Muat turun video"
+  },
+  "quiz": {
+    "title": "Kuiz Auto-Gred",
+    "intro": "20 soalan tentang Perambatan Balik. Pilih jawapan untuk maklum balas serta-merta dan penjelasan. Skor anda dikemas kini secara langsung.",
+    "start": "Mula kuiz",
+    "sectionA": "Bahagian A · Aneka Pilihan",
+    "sectionB": "Bahagian B · Betul / Salah",
+    "questionOf": "Soalan {current} daripada {total}",
+    "true": "Betul",
+    "false": "Salah",
+    "correct": "Betul",
+    "incorrect": "Salah",
+    "yourAnswer": "Jawapan anda",
+    "correctAnswer": "Jawapan betul",
+    "explanation": "Penjelasan",
+    "scoreLive": "Skor: {score} / {total}",
+    "next": "Soalan seterusnya",
+    "finish": "Lihat keputusan",
+    "resultTitle": "Keputusan anda",
+    "resultScore": "{score} / {total}",
+    "resultPercent": "{percent}%",
+    "passed": "Lulus — syabas!",
+    "failed": "Belum lulus — semak semula kuliah dan cuba lagi.",
+    "passNote": "Markah lulus: {pass} / {total}",
+    "retry": "Cuba semula kuiz",
+    "reviewLecture": "Semak semula kuliah",
+    "answeredCount": "{answered} daripada {total} dijawab"
+  },
+  "resources": {
+    "title": "Slaid & Sumber",
+    "intro": "Muat turun bahan pengajaran dipertingkat. PPTX ialah deck PowerPoint yang boleh disunting sepenuhnya.",
+    "pptxTitle": "Deck slaid dipertingkat (PPTX)",
+    "pptxDesc": "22 slaid direka semula — PowerPoint yang boleh disunting secara asli.",
+    "pdfTitle": "Slaid (PDF)",
+    "pdfDesc": "Slaid sumber yang dieksport untuk tontonan pantas.",
+    "download": "Muat turun",
+    "sizeLabel": "Saiz"
+  },
+  "report": {
+    "title": "Laporan Alat & Aliran Kerja AI",
+    "intro": "Cara alat AI digunakan — secara bertanggungjawab dan dengan semakan manusia — untuk mempertingkat bahan kursus."
+  },
+  "prompts": {
+    "title": "Contoh Gesaan",
+    "intro": "Gesaan sebenar yang digunakan merentas saluran berbantukan AI, disusun mengikut peringkat."
+  },
+  "makingOf": {
+    "title": "Proses Pembuatan: Penyampaian Web Tiga Bahasa",
+    "intro": "Dokumentasi Fasa 2 — cara laman web ini sendiri dirancang dan dibina dengan Claude Code, berserta gesaan dan alat yang digunakan."
+  },
+  "notFound": {
+    "title": "Halaman tidak dijumpai",
+    "desc": "Halaman yang anda cari tidak wujud.",
+    "home": "Pergi ke utama"
+  }
+}

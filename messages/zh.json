@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "反向传播 — CCS3600 交互式展示",
+    "description": "一个由 AI 辅助、三语呈现的神经网络反向传播交互式学习包：讲解、视频、自动评分测验，以及 AI 工具与工作流报告。"
+  },
+  "common": {
+    "brand": "反向传播",
+    "courseCode": "CCS3600",
+    "projectTitle": "AI 辅助教学内容增强项目",
+    "language": "语言",
+    "skipToContent": "跳到正文",
+    "backToTop": "返回顶部",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单"
+  },
+  "nav": {
+    "home": "首页",
+    "lecture": "讲解",
+    "video": "视频",
+    "quiz": "测验",
+    "resources": "资源",
+    "report": "报告",
+    "prompts": "提示词",
+    "makingOf": "制作过程"
+  },
+  "footer": {
+    "tagline": "为 CCS3600 迷你项目使用 AI 工具进行增强。",
+    "originalCredit": "原始讲义由 Maslina @ SSK5603 提供。内容已由项目团队审阅并核实。",
+    "builtWith": "基于 Next.js 构建 · 部署于 Vercel"
+  },
+  "banner": {
+    "translationInProgress": "当 {locale} 翻译尚未定稿时，本页内容以英文显示。",
+    "dismiss": "知道了"
+  },
+  "home": {
+    "kicker": "CCS3600 · 人工智能",
+    "title": "神经网络中的反向传播",
+    "subtitle": "让现代深度学习成为可能的算法 —— 以交互式、三语学习包的形式讲解。",
+    "ctaLecture": "开始学习讲解",
+    "ctaQuiz": "进行测验",
+    "overviewTitle": "探索每个部分",
+    "overviewSubtitle": "项目的每项成果，在一处直观呈现。",
+    "cards": {
+      "lecture": {
+        "title": "交互式讲解",
+        "desc": "22 张增强幻灯片重建为带公式与图示的响应式内容。"
+      },
+      "video": {
+        "title": "讲解视频",
+        "desc": "约 18 分钟、由 AI 配音的完整主题讲解视频。"
+      },
+      "quiz": {
+        "title": "自动评分测验",
+        "desc": "20 道题，即时反馈、详解与实时得分。"
+      },
+      "resources": {
+        "title": "幻灯片与资源",
+        "desc": "下载增强版幻灯片（PPTX）与导出的 PDF。"
+      },
+      "report": {
+        "title": "工具与工作流",
+        "desc": "如何负责任地使用 AI 工具构建本学习包。"
+      },
+      "prompts": {
+        "title": "提示词示例",
+        "desc": "AI 辅助流程中实际使用的提示词。"
+      }
+    },
+    "factsTitle": "概览",
+    "facts": {
+      "slides": "增强幻灯片",
+      "videoLen": "视频时长",
+      "questions": "测验题目",
+      "languages": "语言"
+    }
+  },
+  "lecture": {
+    "title": "交互式讲解",
+    "intro": "增强版 22 张幻灯片，重建为原生、响应式内容。可通过大纲在四个部分之间跳转。",
+    "outline": "大纲",
+    "slideRef": "幻灯片 {n}",
+    "parts": {
+      "foundations": "第一部分 · 基础",
+      "theory": "第二部分 · 理论与数学",
+      "applications": "第三部分 · 实际应用",
+      "evaluation": "第四部分 · 评估"
+    }
+  },
+  "video": {
+    "title": "讲解视频",
+    "intro": "由增强幻灯片生成、AI 配音的完整反向传播主题讲解。",
+    "duration": "时长",
+    "unsupported": "您的浏览器无法播放此视频，可在下方下载。",
+    "download": "下载视频"
+  },
+  "quiz": {
+    "title": "自动评分测验",
+    "intro": "关于反向传播的 20 道题。选择答案即可获得即时反馈与解析，得分实时更新。",
+    "start": "开始测验",
+    "sectionA": "第 A 部分 · 单项选择",
+    "sectionB": "第 B 部分 · 判断题",
+    "questionOf": "第 {current} / {total} 题",
+    "true": "正确",
+    "false": "错误",
+    "correct": "回答正确",
+    "incorrect": "回答错误",
+    "yourAnswer": "你的答案",
+    "correctAnswer": "正确答案",
+    "explanation": "解析",
+    "scoreLive": "得分：{score} / {total}",
+    "next": "下一题",
+    "finish": "查看结果",
+    "resultTitle": "你的成绩",
+    "resultScore": "{score} / {total}",
+    "resultPercent": "{percent}%",
+    "passed": "通过 —— 做得好！",
+    "failed": "尚未通过 —— 复习讲解后再试一次。",
+    "passNote": "及格线：{pass} / {total}",
+    "retry": "重新测验",
+    "reviewLecture": "复习讲解",
+    "answeredCount": "已作答 {answered} / {total}"
+  },
+  "resources": {
+    "title": "幻灯片与资源",
+    "intro": "下载增强版教学材料。PPTX 为完全可编辑的 PowerPoint 文件。",
+    "pptxTitle": "增强版幻灯片（PPTX）",
+    "pptxDesc": "22 张重新设计的幻灯片 —— 原生可编辑的 PowerPoint。",
+    "pdfTitle": "幻灯片（PDF）",
+    "pdfDesc": "导出的源幻灯片，便于快速查看。",
+    "download": "下载",
+    "sizeLabel": "大小"
+  },
+  "report": {
+    "title": "AI 工具与工作流报告",
+    "intro": "如何在人工审阅下负责任地使用 AI 工具增强课件。"
+  },
+  "prompts": {
+    "title": "提示词示例",
+    "intro": "AI 辅助流程中按阶段组织的实际提示词。"
+  },
+  "makingOf": {
+    "title": "制作过程：三语网站交付",
+    "intro": "第二阶段文档 —— 本网站本身如何使用 Claude Code 规划与构建，以及所用的提示词和工具。"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "desc": "您访问的页面不存在。",
+    "home": "返回首页"
+  }
+}

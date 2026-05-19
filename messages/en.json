@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Backpropagation — CCS3600 Interactive Showcase",
+    "description": "An AI-assisted, trilingual interactive learning package on Backpropagation in Neural Networks: lecture, video, auto-graded quiz, and an AI tools & workflow report."
+  },
+  "common": {
+    "brand": "Backpropagation",
+    "courseCode": "CCS3600",
+    "projectTitle": "AI-Assisted Teaching Content Enhancement Project",
+    "language": "Language",
+    "skipToContent": "Skip to content",
+    "backToTop": "Back to top",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "nav": {
+    "home": "Home",
+    "lecture": "Lecture",
+    "video": "Video",
+    "quiz": "Quiz",
+    "resources": "Resources",
+    "report": "Report",
+    "prompts": "Prompts",
+    "makingOf": "Making-Of"
+  },
+  "footer": {
+    "tagline": "Enhanced with AI tools for the CCS3600 mini-project.",
+    "originalCredit": "Original lecture by Maslina @ SSK5603. Content reviewed and verified by the project team.",
+    "builtWith": "Built with Next.js · Deployed on Vercel"
+  },
+  "banner": {
+    "translationInProgress": "This page is shown in English where a {locale} translation is not yet finalized.",
+    "dismiss": "Dismiss"
+  },
+  "home": {
+    "kicker": "CCS3600 · Artificial Intelligence",
+    "title": "Backpropagation in Neural Networks",
+    "subtitle": "The algorithm that makes modern deep learning possible — explained as an interactive, trilingual learning package.",
+    "ctaLecture": "Start the lecture",
+    "ctaQuiz": "Take the quiz",
+    "overviewTitle": "Explore every part",
+    "overviewSubtitle": "Each deliverable of the project, presented intuitively in one place.",
+    "cards": {
+      "lecture": {
+        "title": "Interactive Lecture",
+        "desc": "22 enhanced slides rebuilt as responsive sections with formulas and diagrams."
+      },
+      "video": {
+        "title": "Lecture Video",
+        "desc": "An AI-narrated ~18-minute video walkthrough of the full topic."
+      },
+      "quiz": {
+        "title": "Auto-Graded Quiz",
+        "desc": "20 questions with instant feedback, explanations and a live score."
+      },
+      "resources": {
+        "title": "Slides & Resources",
+        "desc": "Download the enhanced slide deck (PPTX) and the exported PDF."
+      },
+      "report": {
+        "title": "Tools & Workflow",
+        "desc": "How AI tools were used responsibly to build this package."
+      },
+      "prompts": {
+        "title": "Prompt Examples",
+        "desc": "The actual prompts used across the AI-assisted pipeline."
+      }
+    },
+    "factsTitle": "At a glance",
+    "facts": {
+      "slides": "Enhanced slides",
+      "videoLen": "Video length",
+      "questions": "Quiz questions",
+      "languages": "Languages"
+    }
+  },
+  "lecture": {
+    "title": "Interactive Lecture",
+    "intro": "The enhanced 22-slide deck, rebuilt as native, responsive content. Use the outline to jump between the four parts.",
+    "outline": "Outline",
+    "slideRef": "Slide {n}",
+    "parts": {
+      "foundations": "Part I · Foundations",
+      "theory": "Part II · Theory & Mathematics",
+      "applications": "Part III · Real-World Applications",
+      "evaluation": "Part IV · Evaluation"
+    }
+  },
+  "video": {
+    "title": "Lecture Video",
+    "intro": "AI-narrated walkthrough of the full Backpropagation topic, generated from the enhanced slides.",
+    "duration": "Duration",
+    "unsupported": "Your browser cannot play this video. You can download it below.",
+    "download": "Download the video"
+  },
+  "quiz": {
+    "title": "Auto-Graded Quiz",
+    "intro": "20 questions on Backpropagation. Pick an answer to get instant feedback and an explanation. Your score updates live.",
+    "start": "Start quiz",
+    "sectionA": "Section A · Multiple Choice",
+    "sectionB": "Section B · True / False",
+    "questionOf": "Question {current} of {total}",
+    "true": "True",
+    "false": "False",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "yourAnswer": "Your answer",
+    "correctAnswer": "Correct answer",
+    "explanation": "Explanation",
+    "scoreLive": "Score: {score} / {total}",
+    "next": "Next question",
+    "finish": "See results",
+    "resultTitle": "Your result",
+    "resultScore": "{score} / {total}",
+    "resultPercent": "{percent}%",
+    "passed": "Passed — well done!",
+    "failed": "Not passed yet — review the lecture and try again.",
+    "passNote": "Pass mark: {pass} / {total}",
+    "retry": "Retry quiz",
+    "reviewLecture": "Review the lecture",
+    "answeredCount": "{answered} of {total} answered"
+  },
+  "resources": {
+    "title": "Slides & Resources",
+    "intro": "Download the enhanced teaching materials. The PPTX is a fully editable PowerPoint deck.",
+    "pptxTitle": "Enhanced slide deck (PPTX)",
+    "pptxDesc": "22 redesigned slides — natively editable PowerPoint.",
+    "pdfTitle": "Slides (PDF)",
+    "pdfDesc": "Exported source slides for quick viewing.",
+    "download": "Download",
+    "sizeLabel": "Size"
+  },
+  "report": {
+    "title": "AI Tools & Workflow Report",
+    "intro": "How AI tools were used — responsibly and with human review — to enhance the courseware."
+  },
+  "prompts": {
+    "title": "Prompt Examples",
+    "intro": "The actual prompts used across the AI-assisted pipeline, organized by stage."
+  },
+  "makingOf": {
+    "title": "Making-Of: Trilingual Web Delivery",
+    "intro": "Phase 2 documentation — how this website itself was planned and built with Claude Code, with the prompts and tools used."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "desc": "The page you are looking for does not exist.",
+    "home": "Go to home"
+  }
+}
