@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect x="0" y="0" width="1280" height="720" fill="#0F172A" />
+
+  
+  <path fill="url(#titleGrad)" d="M62,50 H138 A2,2 0 0 1 140,52 V52 A2,2 0 0 1 138,54 H62 A2,2 0 0 1 60,52 V52 A2,2 0 0 1 62,50 Z" />
+
+  
+  <text x="60" y="90" font-family="Georgia, 'Microsoft YaHei', serif" font-size="30" font-weight="bold" fill="#F1F5F9">What is Backpropagation?</text>
+
+  
+  <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M72,130 H388 A12,12 0 0 1 400,142 V638 A12,12 0 0 1 388,650 H72 A12,12 0 0 1 60,638 V142 A12,12 0 0 1 72,130 Z" />
+
+  
+  
+  <g transform="translate(175.0, 180.0) scale(3.75)" fill="#3B82F6">
+    <path d="M2 16.667a2.667 2.667 0 0 1 2.667 -2.667h2.666a2.667 2.667 0 0 1 2.667 2.667v2.666a2.667 2.667 0 0 1 -2.667 2.667h-2.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+    <path d="M14 16.667a2.667 2.667 0 0 1 2.667 -2.667h2.666a2.667 2.667 0 0 1 2.667 2.667v2.666a2.667 2.667 0 0 1 -2.667 2.667h-2.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+    <path d="M8 4.667a2.667 2.667 0 0 1 2.667 -2.667h2.666a2.667 2.667 0 0 1 2.667 2.667v2.666a2.667 2.667 0 0 1 -2.667 2.667h-2.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+    <path d="M12 8a1 1 0 0 0 -1 1v2h-3c-1.645 0 -3 1.355 -3 3v1a1 1 0 0 0 1 1a1 1 0 0 0 1 -1v-1c0 -.564 .436 -1 1 -1h8c.564 0 1 .436 1 1v1a1 1 0 0 0 1 1a1 1 0 0 0 1 -1v-1c0 -1.645 -1.355 -3 -3 -3h-3v-2a1 1 0 0 0 -1 -1z" />
+  </g>
+
+  
+  <text text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="14" fill="#22D3EE" x="230" y="310">Short for</text><text text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="14" fill="#22D3EE" x="230" y="332">"Backward Propagation</text><text text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="14" fill="#22D3EE" x="230" y="354">of Errors"</text><line x1="120" y1="400" x2="340" y2="400" stroke="#10B981" stroke-width="2" />
+  <polygon points="340,395 350,400 340,405" fill="#10B981" />
+  <text x="230" y="390" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#10B981">Forward Pass</text>
+
+  <line x1="340" y1="440" x2="120" y2="440" stroke="#F59E0B" stroke-width="2" />
+  <polygon points="120,435 110,440 120,445" fill="#F59E0B" />
+  <text x="230" y="470" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#F59E0B">Backward Pass (Error)</text>
+
+  
+  <circle cx="120" cy="530" r="16" fill="#3B82F6" fill-opacity="0.3" stroke="#3B82F6" stroke-width="1.5" />
+  <circle cx="180" cy="530" r="16" fill="#22D3EE" fill-opacity="0.3" stroke="#22D3EE" stroke-width="1.5" />
+  <circle cx="240" cy="530" r="16" fill="#8B5CF6" fill-opacity="0.3" stroke="#8B5CF6" stroke-width="1.5" />
+  <circle cx="300" cy="530" r="16" fill="#3B82F6" fill-opacity="0.3" stroke="#3B82F6" stroke-width="1.5" />
+  <line x1="136" y1="530" x2="164" y2="530" stroke="#334155" stroke-width="1" />
+  <line x1="196" y1="530" x2="224" y2="530" stroke="#334155" stroke-width="1" />
+  <line x1="256" y1="530" x2="284" y2="530" stroke="#334155" stroke-width="1" />
+
+  
+  
+  
+  <g transform="translate(440.0, 145.0)" fill="#3B82F6">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+  <text x="476" y="155" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="18" font-weight="bold" fill="#F1F5F9">Fine-tuning Neural Network Weights</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="476" y="180">Adjusts weights based on error rates from</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="476" y="202">previous iterations (epochs) to reduce errors</text><g transform="translate(440.0, 235.0)" fill="#22D3EE">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+  <text x="476" y="245" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="18" font-weight="bold" fill="#F1F5F9">Gradient Calculation</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="476" y="270">Calculates the gradient of the loss function</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="476" y="292">with respect to each weight in the network</text><g transform="translate(440.0, 325.0)" fill="#8B5CF6">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+  <text x="476" y="335" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="18" font-weight="bold" fill="#F1F5F9">Supervised Learning Foundation</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="476" y="360">Key component for training feedforward neural</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="476" y="382">networks using stochastic gradient descent</text><g transform="translate(440.0, 415.0)" fill="#10B981">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+  <text x="476" y="425" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="18" font-weight="bold" fill="#F1F5F9">Individual Weight Updates</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="476" y="450">Each weight updated individually to gradually</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="476" y="472">reduce the loss function over training iterations</text><g transform="translate(440.0, 505.0)" fill="#F59E0B">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+  <text x="476" y="515" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="18" font-weight="bold" fill="#F1F5F9">Deep Learning Enabler</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="476" y="540">Enabled the surge in popularity of deep learning</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="476" y="562">algorithms since the early 2000s</text><line x1="440" y1="590" x2="1220" y2="590" stroke="#334155" stroke-width="1" />
+
+  
+  <text x="440" y="620" font-family="Georgia, 'Microsoft YaHei', serif" font-size="15" fill="#22D3EE" font-style="italic">Backpropagation proceeds backwards through the network, from the last layer to the first.</text>
+
+  
+  <text x="1220" y="700" text-anchor="end" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#64748B">03</text>
+</svg>

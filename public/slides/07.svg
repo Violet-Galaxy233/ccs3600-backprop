@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#0F172A" />
+  <path fill="url(#titleGrad)" d="M62,50 H138 A2,2 0 0 1 140,52 V52 A2,2 0 0 1 138,54 H62 A2,2 0 0 1 60,52 V52 A2,2 0 0 1 62,50 Z" />
+  <text x="60" y="90" font-family="Georgia, 'Microsoft YaHei', serif" font-size="30" font-weight="bold" fill="#F1F5F9">Types of Backpropagation Networks</text>
+
+  
+  <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M72,130 H418 A12,12 0 0 1 430,142 V648 A12,12 0 0 1 418,660 H72 A12,12 0 0 1 60,648 V142 A12,12 0 0 1 72,130 Z" />
+  <path fill="#3B82F6" d="M63,130 H427 A3,3 0 0 1 430,133 V133 A3,3 0 0 1 427,136 H63 A3,3 0 0 1 60,133 V133 A3,3 0 0 1 63,130 Z" />
+  <circle cx="120" cy="190" r="32" fill="#3B82F6" fill-opacity="0.15" stroke="#3B82F6" stroke-width="1.5" />
+  <text x="120" y="196" text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#3B82F6">1</text>
+  <text x="168" y="196" font-family="Georgia, 'Microsoft YaHei', serif" font-size="22" font-weight="bold" fill="#F1F5F9">Static</text>
+  <text x="168" y="222" font-family="Georgia, 'Microsoft YaHei', serif" font-size="22" font-weight="bold" fill="#F1F5F9">Backpropagation</text>
+
+  <line x1="100" y1="245" x2="390" y2="245" stroke="#334155" stroke-width="1" />
+
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="100" y="280">Maps static input to</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="100" y="304">static output.</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="100" y="340">Used for static classification</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="100" y="364">tasks like optical character</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="100" y="388">recognition (OCR).</text><path fill="#3B82F6" fill-opacity="0.1" stroke="#3B82F6" stroke-width="1" stroke-opacity="0.3" d="M108,440 H382 A8,8 0 0 1 390,448 V476 A8,8 0 0 1 382,484 H108 A8,8 0 0 1 100,476 V448 A8,8 0 0 1 108,440 Z" />
+  
+  <g transform="translate(112.0, 450.0)" fill="#3B82F6">
+    <path d="M10 3h-6a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1z" />
+    <path d="M20 3h-6a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1z" />
+    <path d="M10 13h-6a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1z" />
+    <path d="M17 13a4 4 0 1 1 -3.995 4.2l-.005 -.2l.005 -.2a4 4 0 0 1 3.995 -3.8z" />
+  </g>
+  <text x="144" y="468" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#3B82F6">Classification Tasks</text>
+
+  
+  <path fill="#3B82F6" fill-opacity="0.2" stroke="#3B82F6" stroke-width="1" d="M126,520 H184 A6,6 0 0 1 190,526 V550 A6,6 0 0 1 184,556 H126 A6,6 0 0 1 120,550 V526 A6,6 0 0 1 126,520 Z" />
+  <text x="155" y="543" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#3B82F6">Input</text>
+  <line x1="190" y1="538" x2="240" y2="538" stroke="#3B82F6" stroke-width="1.5" />
+  <polygon points="240,534 248,538 240,542" fill="#3B82F6" />
+  <path fill="#8B5CF6" fill-opacity="0.2" stroke="#8B5CF6" stroke-width="1" d="M254,520 H292 A6,6 0 0 1 298,526 V550 A6,6 0 0 1 292,556 H254 A6,6 0 0 1 248,550 V526 A6,6 0 0 1 254,520 Z" />
+  <text x="273" y="543" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#8B5CF6">NN</text>
+  <line x1="298" y1="538" x2="338" y2="538" stroke="#10B981" stroke-width="1.5" />
+  <polygon points="338,534 346,538 338,542" fill="#10B981" />
+  <text x="370" y="543" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#10B981">Output</text>
+
+  
+  <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M467,130 H813 A12,12 0 0 1 825,142 V648 A12,12 0 0 1 813,660 H467 A12,12 0 0 1 455,648 V142 A12,12 0 0 1 467,130 Z" />
+  <path fill="#22D3EE" d="M458,130 H822 A3,3 0 0 1 825,133 V133 A3,3 0 0 1 822,136 H458 A3,3 0 0 1 455,133 V133 A3,3 0 0 1 458,130 Z" />
+  <circle cx="515" cy="190" r="32" fill="#22D3EE" fill-opacity="0.15" stroke="#22D3EE" stroke-width="1.5" />
+  <text x="515" y="196" text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#22D3EE">2</text>
+  <text x="563" y="196" font-family="Georgia, 'Microsoft YaHei', serif" font-size="22" font-weight="bold" fill="#F1F5F9">Recurrent</text>
+  <text x="563" y="222" font-family="Georgia, 'Microsoft YaHei', serif" font-size="22" font-weight="bold" fill="#F1F5F9">Backpropagation</text>
+
+  <line x1="495" y1="245" x2="785" y2="245" stroke="#334155" stroke-width="1" />
+
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="495" y="280">Processes input until a</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="495" y="304">fixed value is reached.</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="495" y="340">Used for sequence-dependent</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="495" y="364">tasks where order matters</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="495" y="388">and output feeds back.</text><path fill="#22D3EE" fill-opacity="0.1" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.3" d="M503,440 H777 A8,8 0 0 1 785,448 V476 A8,8 0 0 1 777,484 H503 A8,8 0 0 1 495,476 V448 A8,8 0 0 1 503,440 Z" />
+  
+  <g transform="translate(507.0, 450.0)" fill="#22D3EE">
+    <path d="M10 3h-6a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1z" />
+    <path d="M20 3h-6a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1z" />
+    <path d="M10 13h-6a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1z" />
+    <path d="M17 13a4 4 0 1 1 -3.995 4.2l-.005 -.2l.005 -.2a4 4 0 0 1 3.995 -3.8z" />
+  </g>
+  <text x="539" y="468" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#22D3EE">Sequence-Dependent Tasks</text>
+
+  
+  <path fill="#22D3EE" fill-opacity="0.2" stroke="#22D3EE" stroke-width="1" d="M546,520 H584 A6,6 0 0 1 590,526 V550 A6,6 0 0 1 584,556 H546 A6,6 0 0 1 540,550 V526 A6,6 0 0 1 546,520 Z" />
+  <text x="565" y="543" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#22D3EE">NN</text>
+  <path d="M590,538 L640,538 L640,508 L510,508 L510,538 L540,538" fill="none" stroke="#F59E0B" stroke-width="1.5" />
+  <polygon points="540,534 532,538 540,542" fill="#F59E0B" />
+
+  
+  <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M862,130 H1208 A12,12 0 0 1 1220,142 V648 A12,12 0 0 1 1208,660 H862 A12,12 0 0 1 850,648 V142 A12,12 0 0 1 862,130 Z" />
+  <path fill="#8B5CF6" d="M853,130 H1217 A3,3 0 0 1 1220,133 V133 A3,3 0 0 1 1217,136 H853 A3,3 0 0 1 850,133 V133 A3,3 0 0 1 853,130 Z" />
+  <circle cx="910" cy="190" r="32" fill="#8B5CF6" fill-opacity="0.15" stroke="#8B5CF6" stroke-width="1.5" />
+  <text x="910" y="196" text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#8B5CF6">3</text>
+  <text x="958" y="196" font-family="Georgia, 'Microsoft YaHei', serif" font-size="22" font-weight="bold" fill="#F1F5F9">BP Through</text>
+  <text x="958" y="222" font-family="Georgia, 'Microsoft YaHei', serif" font-size="22" font-weight="bold" fill="#F1F5F9">Time (BPTT)</text>
+
+  <line x1="890" y1="245" x2="1180" y2="245" stroke="#334155" stroke-width="1" />
+
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="890" y="280">Handles time-series data</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="890" y="304">by unrolling recurrent</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="890" y="328">networks into feedforward</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="890" y="352">form for training. Each</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="890" y="376">timestep = a network copy.</text><path fill="#8B5CF6" fill-opacity="0.1" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3" d="M898,440 H1172 A8,8 0 0 1 1180,448 V476 A8,8 0 0 1 1172,484 H898 A8,8 0 0 1 890,476 V448 A8,8 0 0 1 898,440 Z" />
+  
+  <g transform="translate(902.0, 450.0)" fill="#8B5CF6">
+    <path d="M10 3h-6a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1z" />
+    <path d="M20 3h-6a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1z" />
+    <path d="M10 13h-6a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1z" />
+    <path d="M17 13a4 4 0 1 1 -3.995 4.2l-.005 -.2l.005 -.2a4 4 0 0 1 3.995 -3.8z" />
+  </g>
+  <text x="934" y="468" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#8B5CF6">Time-Series Data</text>
+
+  
+  <path fill="#8B5CF6" fill-opacity="0.2" stroke="#8B5CF6" stroke-width="1" d="M914,520 H946 A4,4 0 0 1 950,524 V546 A4,4 0 0 1 946,550 H914 A4,4 0 0 1 910,546 V524 A4,4 0 0 1 914,520 Z" />
+  <text x="930" y="540" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#8B5CF6">t1</text>
+  <line x1="950" y1="535" x2="970" y2="535" stroke="#8B5CF6" stroke-width="1" />
+  <path fill="#8B5CF6" fill-opacity="0.2" stroke="#8B5CF6" stroke-width="1" d="M974,520 H1006 A4,4 0 0 1 1010,524 V546 A4,4 0 0 1 1006,550 H974 A4,4 0 0 1 970,546 V524 A4,4 0 0 1 974,520 Z" />
+  <text x="990" y="540" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#8B5CF6">t2</text>
+  <line x1="1010" y1="535" x2="1030" y2="535" stroke="#8B5CF6" stroke-width="1" />
+  <path fill="#8B5CF6" fill-opacity="0.2" stroke="#8B5CF6" stroke-width="1" d="M1034,520 H1066 A4,4 0 0 1 1070,524 V546 A4,4 0 0 1 1066,550 H1034 A4,4 0 0 1 1030,546 V524 A4,4 0 0 1 1034,520 Z" />
+  <text x="1050" y="540" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#8B5CF6">t3</text>
+  <line x1="1070" y1="535" x2="1090" y2="535" stroke="#8B5CF6" stroke-width="1" />
+  <text x="1100" y="540" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#8B5CF6">...</text>
+
+  <text x="1220" y="700" text-anchor="end" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#64748B">07</text>
+</svg>

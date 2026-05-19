@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#0F172A" />
+  <path fill="url(#titleGrad)" d="M62,50 H138 A2,2 0 0 1 140,52 V52 A2,2 0 0 1 138,54 H62 A2,2 0 0 1 60,52 V52 A2,2 0 0 1 62,50 Z" />
+  <text x="60" y="90" font-family="Georgia, 'Microsoft YaHei', serif" font-size="30" font-weight="bold" fill="#F1F5F9">Loss Function for Backpropagation</text>
+
+  
+  <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M72,130 H618 A12,12 0 0 1 630,142 V648 A12,12 0 0 1 618,660 H72 A12,12 0 0 1 60,648 V142 A12,12 0 0 1 72,130 Z" />
+  <path fill="#10B981" d="M63,130 H627 A3,3 0 0 1 630,133 V133 A3,3 0 0 1 627,136 H63 A3,3 0 0 1 60,133 V133 A3,3 0 0 1 63,130 Z" />
+  
+  <g transform="translate(100.0, 165.0) scale(1.3333333333333333)" fill="#10B981">
+    <path d="M12.089 3.634a2 2 0 0 0 -1.089 1.78l-.001 2.586h-6.999a2 2 0 0 0 -2 2v4l.005 .15a2 2 0 0 0 1.995 1.85l6.999 -.001l.001 2.587a2 2 0 0 0 3.414 1.414l6.586 -6.586a2 2 0 0 0 0 -2.828l-6.586 -6.586a2 2 0 0 0 -2.18 -.434l-.145 .068z" />
+  </g>
+  <text x="144" y="190" font-family="Georgia, 'Microsoft YaHei', serif" font-size="22" font-weight="bold" fill="#F1F5F9">Forward Propagation</text>
+
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="100" y="230">Input x passes through layers to produce</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="100" y="254">output. Information flows forward.</text><path fill="#3B82F6" fill-opacity="0.2" stroke="#3B82F6" stroke-width="1.5" d="M128,280 H192 A8,8 0 0 1 200,288 V316 A8,8 0 0 1 192,324 H128 A8,8 0 0 1 120,316 V288 A8,8 0 0 1 128,280 Z" />
+  <text x="160" y="307" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#3B82F6">x</text>
+  <line x1="200" y1="302" x2="250" y2="302" stroke="#10B981" stroke-width="2" />
+  <polygon points="250,297 260,302 250,307" fill="#10B981" />
+  <path fill="#8B5CF6" fill-opacity="0.2" stroke="#8B5CF6" stroke-width="1.5" d="M268,280 H352 A8,8 0 0 1 360,288 V316 A8,8 0 0 1 352,324 H268 A8,8 0 0 1 260,316 V288 A8,8 0 0 1 268,280 Z" />
+  <text x="310" y="307" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#8B5CF6">Network</text>
+  <line x1="360" y1="302" x2="410" y2="302" stroke="#10B981" stroke-width="2" />
+  <polygon points="410,297 420,302 410,307" fill="#10B981" />
+  <path fill="#22D3EE" fill-opacity="0.2" stroke="#22D3EE" stroke-width="1.5" d="M428,280 H492 A8,8 0 0 1 500,288 V316 A8,8 0 0 1 492,324 H428 A8,8 0 0 1 420,316 V288 A8,8 0 0 1 428,280 Z" />
+  <text x="460" y="307" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#22D3EE">output</text>
+
+  
+  <line x1="100" y1="355" x2="580" y2="355" stroke="#334155" stroke-width="1" />
+  
+  <g transform="translate(100.0, 375.0) scale(1.1666666666666667)" fill="#F59E0B">
+    <path d="M20 18a1 1 0 0 1 .117 1.993l-.117 .007h-16a1 1 0 0 1 -.117 -1.993l.117 -.007h16z" />
+    <path d="M15.22 5.375a1 1 0 0 1 1.393 -.165l.094 .083l4 4a1 1 0 0 1 .284 .576l.009 .131v5a1 1 0 0 1 -.883 .993l-.117 .007h-16.022l-.11 -.009l-.11 -.02l-.107 -.034l-.105 -.046l-.1 -.059l-.094 -.07l-.06 -.055l-.072 -.082l-.064 -.089l-.054 -.096l-.016 -.035l-.04 -.103l-.027 -.106l-.015 -.108l-.004 -.11l.009 -.11l.019 -.105c.01 -.04 .022 -.077 .035 -.112l.046 -.105l.059 -.1l4 -6a1 1 0 0 1 1.165 -.39l.114 .05l3.277 1.638l3.495 -4.369z" />
+  </g>
+  <text x="140" y="398" font-family="Georgia, 'Microsoft YaHei', serif" font-size="18" font-weight="bold" fill="#F59E0B">Loss Function C</text>
+
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="100" y="435">Measures how far predictions are</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="100" y="459">from true labels:</text><path fill="#0F172A" stroke="#334155" stroke-width="1" d="M128,490 H592 A8,8 0 0 1 600,498 V526 A8,8 0 0 1 592,534 H128 A8,8 0 0 1 120,526 V498 A8,8 0 0 1 128,490 Z" />
+  <text x="360" y="518" text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="17" fill="#F1F5F9">C = Loss( output , label )</text>
+
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#94A3B8" x="100" y="565">Low C = good prediction</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#94A3B8" x="100" y="585">High C = poor prediction</text><path fill="#1E293B" stroke="#334155" stroke-width="1" d="M672,130 H1208 A12,12 0 0 1 1220,142 V378 A12,12 0 0 1 1208,390 H672 A12,12 0 0 1 660,378 V142 A12,12 0 0 1 672,130 Z" />
+  <path fill="#F59E0B" d="M663,130 H1217 A3,3 0 0 1 1220,133 V133 A3,3 0 0 1 1217,136 H663 A3,3 0 0 1 660,133 V133 A3,3 0 0 1 663,130 Z" />
+  <text x="700" y="170" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#F1F5F9">Training Behavior</text>
+
+  
+  <line x1="720" y1="210" x2="720" y2="350" stroke="#334155" stroke-width="1.5" />
+  <line x1="720" y1="350" x2="1170" y2="350" stroke="#334155" stroke-width="1.5" />
+  <text x="700" y="210" text-anchor="end" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="11" fill="#64748B">Loss</text>
+  <text x="1170" y="370" text-anchor="end" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="11" fill="#64748B">Training iterations</text>
+
+  
+  <path d="M730,220 Q800,225 850,260 Q920,300 1000,325 Q1060,338 1160,342" fill="none" stroke="#F59E0B" stroke-width="2.5" />
+  <circle cx="730" cy="220" r="4" fill="#F59E0B" />
+  <text x="745" y="218" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="11" fill="#F59E0B">Start: high loss</text>
+  <circle cx="1160" cy="342" r="4" fill="#10B981" />
+  <text x="1100" y="335" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="11" fill="#10B981">Trained: low loss</text>
+
+  
+  <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M672,420 H1208 A12,12 0 0 1 1220,432 V648 A12,12 0 0 1 1208,660 H672 A12,12 0 0 1 660,648 V432 A12,12 0 0 1 672,420 Z" />
+  <text x="700" y="458" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#22D3EE">Common Loss Functions</text>
+
+  <path fill="#3B82F6" fill-opacity="0.1" stroke="#3B82F6" stroke-width="1" stroke-opacity="0.3" d="M708,480 H902 A8,8 0 0 1 910,488 V522 A8,8 0 0 1 902,530 H708 A8,8 0 0 1 700,522 V488 A8,8 0 0 1 708,480 Z" />
+  <text x="805" y="510" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#3B82F6">Cross-Entropy</text>
+
+  <path fill="#22D3EE" fill-opacity="0.1" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.3" d="M938,480 H1172 A8,8 0 0 1 1180,488 V522 A8,8 0 0 1 1172,530 H938 A8,8 0 0 1 930,522 V488 A8,8 0 0 1 938,480 Z" />
+  <text x="1055" y="510" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#22D3EE">Cosine Similarity</text>
+
+  <path fill="#8B5CF6" fill-opacity="0.1" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3" d="M708,545 H902 A8,8 0 0 1 910,553 V587 A8,8 0 0 1 902,595 H708 A8,8 0 0 1 700,587 V553 A8,8 0 0 1 708,545 Z" />
+  <text x="805" y="575" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#8B5CF6">Hinge Loss</text>
+
+  <path fill="#F59E0B" fill-opacity="0.1" stroke="#F59E0B" stroke-width="1" stroke-opacity="0.3" d="M938,545 H1172 A8,8 0 0 1 1180,553 V587 A8,8 0 0 1 1172,595 H938 A8,8 0 0 1 930,587 V553 A8,8 0 0 1 938,545 Z" />
+  <text x="1055" y="575" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#F59E0B">Mean Squared Error</text>
+
+  <text x="700" y="634" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#94A3B8" font-style="italic">Objective: reduce C by adjusting network weights</text>
+
+  <text x="1220" y="700" text-anchor="end" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#64748B">09</text>
+</svg>

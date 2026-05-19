@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#0F172A" />
+  <path fill="url(#titleGrad)" d="M62,50 H138 A2,2 0 0 1 140,52 V52 A2,2 0 0 1 138,54 H62 A2,2 0 0 1 60,52 V52 A2,2 0 0 1 62,50 Z" />
+  <text x="60" y="90" font-family="Georgia, 'Microsoft YaHei', serif" font-size="30" font-weight="bold" fill="#F1F5F9">Chain Rule for Gradient Calculation</text>
+
+  
+  <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M72,130 H628 A12,12 0 0 1 640,142 V338 A12,12 0 0 1 628,350 H72 A12,12 0 0 1 60,338 V142 A12,12 0 0 1 72,130 Z" />
+  
+  <g transform="translate(100.0, 155.0) scale(1.3333333333333333)" fill="#3B82F6">
+    <path d="M15.707 8.293a1 1 0 0 1 0 1.414l-6 6a1 1 0 1 1 -1.414 -1.414l6 -6a1 1 0 0 1 1.414 0" />
+    <path d="M19.242 4.757c2.343 2.344 2.342 6.143 -.052 8.534l-.534 .464a1 1 0 1 1 -1.312 -1.51l.483 -.416a4 4 0 0 0 0 -5.657c-1.562 -1.563 -4.095 -1.563 -5.607 -.054l-.463 .536a1 1 0 1 1 -1.514 -1.308l.513 -.59a6 6 0 0 1 8.486 .001" />
+    <path d="M6.75 10.338a1 1 0 0 1 -.088 1.411l-.483 .425a3.97 3.97 0 0 0 0 5.649a4.064 4.064 0 0 0 5.678 .038l.34 -.458a1 1 0 1 1 1.606 1.194l-.397 .534l-.1 .114a6.07 6.07 0 0 1 -8.533 0a5.97 5.97 0 0 1 -1.773 -4.247c0 -1.595 .638 -3.124 1.814 -4.284l.524 -.463a1 1 0 0 1 1.411 .087" />
+  </g>
+  <text x="144" y="180" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#F1F5F9">The Chain Rule</text>
+
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="100" y="215">C depends on weight values via a chain of</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="100" y="239">many functions. For z depending on y,</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="100" y="263">where y depends on x:</text><path fill="#0F172A" stroke="#3B82F6" stroke-width="1.5" d="M128,290 H592 A8,8 0 0 1 600,298 V326 A8,8 0 0 1 592,334 H128 A8,8 0 0 1 120,326 V298 A8,8 0 0 1 128,290 Z" />
+  <text x="360" y="318" text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="22" fill="#F1F5F9">dz/dx = (dz/dy) · (dy/dx)</text>
+
+  
+  <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M672,130 H1208 A12,12 0 0 1 1220,142 V338 A12,12 0 0 1 1208,350 H672 A12,12 0 0 1 660,338 V142 A12,12 0 0 1 672,130 Z" />
+  
+  <g transform="translate(700.0, 155.0) scale(1.3333333333333333)" fill="#22D3EE">
+    <path d="M13 2l.018 .001l.016 .001l.083 .005l.011 .002h.011l.038 .009l.052 .008l.016 .006l.011 .001l.029 .011l.052 .014l.019 .009l.015 .004l.028 .014l.04 .017l.021 .012l.022 .01l.023 .015l.031 .017l.034 .024l.018 .011l.013 .012l.024 .017l.038 .034l.022 .017l.008 .01l.014 .012l.036 .041l.026 .027l.006 .009c.12 .147 .196 .322 .218 .513l.001 .012l.002 .041l.004 .064v6h5a1 1 0 0 1 .868 1.497l-.06 .091l-8 11c-.568 .783 -1.808 .38 -1.808 -.588v-6h-5a1 1 0 0 1 -.868 -1.497l.06 -.091l8 -11l.01 -.013l.018 -.024l.033 -.038l.018 -.022l.009 -.008l.013 -.014l.04 -.036l.028 -.026l.008 -.006a1 1 0 0 1 .402 -.199l.011 -.001l.027 -.005l.074 -.013l.011 -.001l.041 -.002z" />
+  </g>
+  <text x="744" y="180" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#F1F5F9">Key Efficiency Advantage</text>
+
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="700" y="215">Derivatives at layer N calculated first.</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="700" y="239">These are ingredients for layer N-1.</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="700" y="263">Save and reuse derivative calculations</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="700" y="287">via the chain rule — avoids duplicate</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="700" y="311">calculations across all layers.</text><path fill="#1E293B" stroke="#334155" stroke-width="1" d="M72,380 H1208 A12,12 0 0 1 1220,392 V648 A12,12 0 0 1 1208,660 H72 A12,12 0 0 1 60,648 V392 A12,12 0 0 1 72,380 Z" />
+  <text x="100" y="418" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#8B5CF6">Backward Computation Flow</text>
+
+  
+  <path fill="#F59E0B" fill-opacity="0.15" stroke="#F59E0B" stroke-width="1.5" d="M128,450 H272 A8,8 0 0 1 280,458 V522 A8,8 0 0 1 272,530 H128 A8,8 0 0 1 120,522 V458 A8,8 0 0 1 128,450 Z" />
+  <text x="200" y="480" text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="16" font-weight="bold" fill="#F59E0B">Layer N</text>
+  <text x="200" y="504" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#94A3B8">Calculate ∂C/∂w</text>
+  <text x="200" y="520" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#F59E0B">Start here</text>
+
+  <line x1="280" y1="490" x2="350" y2="490" stroke="#F59E0B" stroke-width="2" />
+  <polygon points="280,485 270,490 280,495" fill="#F59E0B" />
+
+  <path fill="#8B5CF6" fill-opacity="0.15" stroke="#8B5CF6" stroke-width="1.5" d="M358,450 H502 A8,8 0 0 1 510,458 V522 A8,8 0 0 1 502,530 H358 A8,8 0 0 1 350,522 V458 A8,8 0 0 1 358,450 Z" />
+  <text x="430" y="480" text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="16" font-weight="bold" fill="#8B5CF6">Layer N-1</text>
+  <text x="430" y="504" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#94A3B8">Reuse N results</text>
+
+  <line x1="510" y1="490" x2="580" y2="490" stroke="#8B5CF6" stroke-width="2" />
+  <polygon points="510,485 500,490 510,495" fill="#8B5CF6" />
+
+  <path fill="#3B82F6" fill-opacity="0.15" stroke="#3B82F6" stroke-width="1.5" d="M588,450 H732 A8,8 0 0 1 740,458 V522 A8,8 0 0 1 732,530 H588 A8,8 0 0 1 580,522 V458 A8,8 0 0 1 588,450 Z" />
+  <text x="660" y="480" text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="16" font-weight="bold" fill="#3B82F6">Layer N-2</text>
+  <text x="660" y="504" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#94A3B8">Reuse N-1 results</text>
+
+  <line x1="740" y1="490" x2="810" y2="490" stroke="#3B82F6" stroke-width="2" />
+  <polygon points="740,485 730,490 740,495" fill="#3B82F6" />
+
+  <text x="840" y="490" font-family="Georgia, 'Microsoft YaHei', serif" font-size="24" fill="#64748B">…</text>
+
+  <line x1="870" y1="490" x2="930" y2="490" stroke="#22D3EE" stroke-width="2" />
+  <polygon points="870,485 860,490 870,495" fill="#22D3EE" />
+
+  <path fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-width="1.5" d="M938,450 H1082 A8,8 0 0 1 1090,458 V522 A8,8 0 0 1 1082,530 H938 A8,8 0 0 1 930,522 V458 A8,8 0 0 1 938,450 Z" />
+  <text x="1010" y="480" text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="16" font-weight="bold" fill="#10B981">Layer 1</text>
+  <text x="1010" y="504" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#94A3B8">All gradients done</text>
+  <text x="1010" y="520" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="12" fill="#10B981">End here</text>
+
+  
+  <text x="640" y="580" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#F59E0B">← Direction of gradient computation (backward through the network)</text>
+
+  
+  <text x="100" y="635" font-family="Georgia, 'Microsoft YaHei', serif" font-size="15" fill="#22D3EE" font-style="italic">Each layer's derivatives are an ingredient in the chain rule formula for the previous layer.</text>
+
+  <text x="1220" y="700" text-anchor="end" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#64748B">11</text>
+</svg>

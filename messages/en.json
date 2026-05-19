@@ -43,7 +43,7 @@
     "cards": {
       "lecture": {
         "title": "Interactive Lecture",
-        "desc": "22 enhanced slides rebuilt as responsive sections with formulas and diagrams."
+        "desc": "The 22 redesigned slides from the enhanced deck, presented as the actual presentation."
       },
       "video": {
         "title": "Lecture Video",
@@ -76,7 +76,7 @@
   },
   "lecture": {
     "title": "Interactive Lecture",
-    "intro": "The enhanced 22-slide deck, rebuilt as native, responsive content. Use the outline to jump between the four parts.",
+    "intro": "The enhanced 22-slide presentation — the actual redesigned slides. Use the outline to jump between the four parts; click any slide to open it full size.",
     "outline": "Outline",
     "slideRef": "Slide {n}",
     "parts": {

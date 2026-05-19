@@ -43,7 +43,7 @@
     "cards": {
       "lecture": {
         "title": "Kuliah Interaktif",
-        "desc": "22 slaid dipertingkat dibina semula sebagai bahagian responsif dengan formula dan rajah."
+        "desc": "22 slaid dipertingkat yang direka semula, dipaparkan sebagai persembahan sebenar."
       },
       "video": {
         "title": "Video Kuliah",
@@ -76,7 +76,7 @@
   },
   "lecture": {
     "title": "Kuliah Interaktif",
-    "intro": "Deck 22 slaid dipertingkat, dibina semula sebagai kandungan asli yang responsif. Gunakan rangka untuk melompat antara empat bahagian.",
+    "intro": "Persembahan 22 slaid dipertingkat — slaid sebenar yang direka semula. Gunakan rangka untuk melompat antara empat bahagian; klik mana-mana slaid untuk buka saiz penuh.",
     "outline": "Rangka",
     "slideRef": "Slaid {n}",
     "parts": {

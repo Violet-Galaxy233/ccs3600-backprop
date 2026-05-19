@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#10B981" />
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#0F172A" />
+  <path fill="url(#titleGrad)" d="M62,50 H138 A2,2 0 0 1 140,52 V52 A2,2 0 0 1 138,54 H62 A2,2 0 0 1 60,52 V52 A2,2 0 0 1 62,50 Z" />
+  <text x="60" y="90" font-family="Georgia, 'Microsoft YaHei', serif" font-size="30" font-weight="bold" fill="#F1F5F9">How Feed Forward Networks Work</text>
+
+  
+  <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M72,120 H1208 A12,12 0 0 1 1220,132 V388 A12,12 0 0 1 1208,400 H72 A12,12 0 0 1 60,388 V132 A12,12 0 0 1 72,120 Z" />
+  <text x="100" y="155" font-family="Georgia, 'Microsoft YaHei', serif" font-size="18" font-weight="bold" fill="#3B82F6">Single Layer Perceptron Model</text>
+
+  
+  <circle cx="180" cy="220" r="22" fill="#3B82F6" fill-opacity="0.2" stroke="#3B82F6" stroke-width="2" />
+  <text x="180" y="225" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#3B82F6">x1</text>
+  <circle cx="180" cy="290" r="22" fill="#3B82F6" fill-opacity="0.2" stroke="#3B82F6" stroke-width="2" />
+  <text x="180" y="295" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#3B82F6">x2</text>
+  <circle cx="180" cy="360" r="22" fill="#3B82F6" fill-opacity="0.2" stroke="#3B82F6" stroke-width="2" />
+  <text x="180" y="365" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#3B82F6">x3</text>
+
+  
+  <text x="280" y="215" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#22D3EE">w1</text>
+  <text x="280" y="275" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#22D3EE">w2</text>
+  <text x="280" y="345" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#22D3EE">w3</text>
+
+  
+  <line x1="202" y1="220" x2="378" y2="280" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.6" />
+  <line x1="202" y1="290" x2="378" y2="290" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.6" />
+  <line x1="202" y1="360" x2="378" y2="300" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.6" />
+
+  
+  <circle cx="400" cy="290" r="28" fill="#8B5CF6" fill-opacity="0.2" stroke="#8B5CF6" stroke-width="2" />
+  <text x="400" y="296" text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="16" fill="#8B5CF6">∑</text>
+
+  
+  <line x1="428" y1="290" x2="498" y2="290" stroke="#10B981" stroke-width="2" marker-end="url(#arrowGreen)" />
+
+  
+  <path fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-width="1.5" d="M518,265 H582 A8,8 0 0 1 590,273 V307 A8,8 0 0 1 582,315 H518 A8,8 0 0 1 510,307 V273 A8,8 0 0 1 518,265 Z" />
+  <text x="550" y="295" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#10B981">f(x)</text>
+
+  
+  <line x1="590" y1="290" x2="660" y2="290" stroke="#10B981" stroke-width="2" marker-end="url(#arrowGreen)" />
+  <circle cx="690" cy="290" r="22" fill="#F59E0B" fill-opacity="0.2" stroke="#F59E0B" stroke-width="2" />
+  <text x="690" y="295" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#F59E0B">y</text>
+
+  
+  <text x="770" y="200" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#F1F5F9" font-weight="bold">Process:</text>
+  <text x="770" y="228" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#94A3B8">1. Inputs multiplied by weights</text>
+  <text x="770" y="252" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#94A3B8">2. Weighted values summed</text>
+  <text x="770" y="276" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#94A3B8">3. Activation function applied</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#94A3B8" x="770" y="300">4. If sum &gt; threshold: output = 1</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#94A3B8" x="793" y="324">If sum &lt; threshold: output = -1</text><path fill="#1E293B" stroke="#334155" stroke-width="1" d="M72,430 H608 A12,12 0 0 1 620,442 V658 A12,12 0 0 1 608,670 H72 A12,12 0 0 1 60,658 V442 A12,12 0 0 1 72,430 Z" />
+  <path fill="#22D3EE" d="M63,430 H617 A3,2.50 0 0 1 620,432.50 V432.50 A3,2.50 0 0 1 617,435 H63 A3,2.50 0 0 1 60,432.50 V432.50 A3,2.50 0 0 1 63,430 Z" />
+  <text x="100" y="468" font-family="Georgia, 'Microsoft YaHei', serif" font-size="18" font-weight="bold" fill="#22D3EE">Delta Rule</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="100" y="498">Compare outputs with intended values</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="100" y="522">to adjust weights through training.</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="100" y="546">This produces a form of gradient descent.</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="100" y="582">In multi-layered perceptrons, this process</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="100" y="606">is defined as backpropagation.</text><path fill="#1E293B" stroke="#334155" stroke-width="1" d="M672,430 H1208 A12,12 0 0 1 1220,442 V658 A12,12 0 0 1 1208,670 H672 A12,12 0 0 1 660,658 V442 A12,12 0 0 1 672,430 Z" />
+  <path fill="#8B5CF6" d="M663,430 H1217 A3,2.50 0 0 1 1220,432.50 V432.50 A3,2.50 0 0 1 1217,435 H663 A3,2.50 0 0 1 660,432.50 V432.50 A3,2.50 0 0 1 663,430 Z" />
+  <text x="700" y="468" font-family="Georgia, 'Microsoft YaHei', serif" font-size="18" font-weight="bold" fill="#8B5CF6">Multi-Layer Perceptrons</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="700" y="498">Each hidden layer adjusted according</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="700" y="522">to output values from the final layer.</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="700" y="558">Weight updating follows the same</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="700" y="582">principle but propagates error backward</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="700" y="606">through all intermediate layers.</text><text x="1220" y="700" text-anchor="end" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#64748B">05</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#0F172A" />
+
+  
+  <path fill="url(#accentLine)" d="M542,80 H738 A2,2 0 0 1 740,82 V82 A2,2 0 0 1 738,84 H542 A2,2 0 0 1 540,82 V82 A2,2 0 0 1 542,80 Z" />
+
+  
+  <text x="640" y="140" text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="44" font-weight="bold" fill="url(#titleGrad)">Thank You</text>
+
+  
+  <text x="640" y="180" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="18" fill="#94A3B8">Backpropagation in Neural Networks</text>
+
+  
+  <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M306,230 H974 A16,16 0 0 1 990,246 V534 A16,16 0 0 1 974,550 H306 A16,16 0 0 1 290,534 V246 A16,16 0 0 1 306,230 Z" />
+
+  
+  <g transform="translate(330.0, 260.0) scale(1.1666666666666667)" fill="#3B82F6">
+    <path d="M21.5 5.134a1 1 0 0 1 .493 .748l.007 .118v13a1 1 0 0 1 -1.5 .866a8 8 0 0 0 -7.5 -.266v-15.174a10 10 0 0 1 8.5 .708m-10.5 -.707l.001 15.174a8 8 0 0 0 -7.234 .117l-.327 .18l-.103 .044l-.049 .016l-.11 .026l-.061 .01l-.117 .006h-.042l-.11 -.012l-.077 -.014l-.108 -.032l-.126 -.056l-.095 -.056l-.089 -.067l-.06 -.056l-.073 -.082l-.064 -.089l-.022 -.036l-.032 -.06l-.044 -.103l-.016 -.049l-.026 -.11l-.01 -.061l-.004 -.049l-.002 -13.068a1 1 0 0 1 .5 -.866a10 10 0 0 1 8.5 -.707" />
+  </g>
+  <text x="368" y="282" font-family="Georgia, 'Microsoft YaHei', serif" font-size="22" font-weight="bold" fill="#F1F5F9">References</text>
+  <line x1="330" y1="300" x2="950" y2="300" stroke="#334155" stroke-width="1" />
+
+  
+  <circle cx="350" cy="335" r="5" fill="#3B82F6" />
+  <text x="370" y="340" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#F1F5F9">DeepAI.org</text>
+  <text x="370" y="362" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#64748B">deepai.org/machine-learning-glossary-and-terms/backpropagation</text>
+
+  
+  <circle cx="350" cy="400" r="5" fill="#22D3EE" />
+  <text x="370" y="405" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#F1F5F9">Guru99.com</text>
+  <text x="370" y="427" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#64748B">guru99.com/backpropagation-neural-network.html</text>
+
+  
+  <line x1="330" y1="455" x2="950" y2="455" stroke="#334155" stroke-width="1" />
+
+  
+  <circle cx="350" cy="485" r="5" fill="#8B5CF6" />
+  <text x="370" y="490" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#F1F5F9">Original Lecture: Maslina @ SSK5603</text>
+
+  
+  <circle cx="350" cy="520" r="5" fill="#10B981" />
+  <text x="370" y="525" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#F1F5F9">Enhanced with AI tools for CCS3600 Mini Project</text>
+
+  
+  <path fill="url(#accentLine)" fill-opacity="0.4" d="M541.50,600 H738.50 A1.50,1.50 0 0 1 740,601.50 V601.50 A1.50,1.50 0 0 1 738.50,603 H541.50 A1.50,1.50 0 0 1 540,601.50 V601.50 A1.50,1.50 0 0 1 541.50,600 Z" />
+
+  <text x="640" y="640" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#64748B">CCS3600 Artificial Intelligence</text>
+
+  
+  <circle cx="610" cy="670" r="3" fill="#3B82F6" fill-opacity="0.5" />
+  <circle cx="630" cy="670" r="3" fill="#22D3EE" fill-opacity="0.5" />
+  <circle cx="650" cy="670" r="3" fill="#8B5CF6" fill-opacity="0.5" />
+  <circle cx="670" cy="670" r="3" fill="#10B981" fill-opacity="0.5" />
+
+  <text x="1220" y="700" text-anchor="end" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#64748B">22</text>
+</svg>

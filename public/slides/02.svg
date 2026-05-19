@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect x="0" y="0" width="1280" height="720" fill="#0F172A" />
+
+  
+  <path fill="url(#titleGrad)" d="M62,50 H138 A2,2 0 0 1 140,52 V52 A2,2 0 0 1 138,54 H62 A2,2 0 0 1 60,52 V52 A2,2 0 0 1 62,50 Z" />
+
+  
+  <text x="60" y="90" font-family="Georgia, 'Microsoft YaHei', serif" font-size="30" font-weight="bold" fill="#F1F5F9">What You Will Learn</text>
+
+  
+  <text x="60" y="120" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8">Learning objectives for this module</text>
+
+  
+  <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M72,160 H318 A12,12 0 0 1 330,172 V628 A12,12 0 0 1 318,640 H72 A12,12 0 0 1 60,628 V172 A12,12 0 0 1 72,160 Z" />
+  <path fill="#3B82F6" d="M63,160 H327 A3,3 0 0 1 330,163 V163 A3,3 0 0 1 327,166 H63 A3,3 0 0 1 60,163 V163 A3,3 0 0 1 63,160 Z" />
+  
+  <g transform="translate(80.0, 195.0) scale(1.6666666666666667)" fill="#3B82F6">
+    <path d="M2 16.667a2.667 2.667 0 0 1 2.667 -2.667h2.666a2.667 2.667 0 0 1 2.667 2.667v2.666a2.667 2.667 0 0 1 -2.667 2.667h-2.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+    <path d="M14 16.667a2.667 2.667 0 0 1 2.667 -2.667h2.666a2.667 2.667 0 0 1 2.667 2.667v2.666a2.667 2.667 0 0 1 -2.667 2.667h-2.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+    <path d="M8 4.667a2.667 2.667 0 0 1 2.667 -2.667h2.666a2.667 2.667 0 0 1 2.667 2.667v2.666a2.667 2.667 0 0 1 -2.667 2.667h-2.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+    <path d="M12 8a1 1 0 0 0 -1 1v2h-3c-1.645 0 -3 1.355 -3 3v1a1 1 0 0 0 1 1a1 1 0 0 0 1 -1v-1c0 -.564 .436 -1 1 -1h8c.564 0 1 .436 1 1v1a1 1 0 0 0 1 1a1 1 0 0 0 1 -1v-1c0 -1.645 -1.355 -3 -3 -3h-3v-2a1 1 0 0 0 -1 -1z" />
+  </g>
+  <text x="80" y="265" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#F1F5F9">Fundamentals</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="80" y="300">Understand the</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="80" y="324">architecture and</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="80" y="348">mechanics of feed-</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="80" y="372">forward neural</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="80" y="396">networks and how</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="80" y="420">information flows</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="80" y="444">through layers</text><path fill="#1E293B" stroke="#334155" stroke-width="1" d="M372,160 H618 A12,12 0 0 1 630,172 V628 A12,12 0 0 1 618,640 H372 A12,12 0 0 1 360,628 V172 A12,12 0 0 1 372,160 Z" />
+  <path fill="#22D3EE" d="M363,160 H627 A3,3 0 0 1 630,163 V163 A3,3 0 0 1 627,166 H363 A3,3 0 0 1 360,163 V163 A3,3 0 0 1 363,160 Z" />
+  
+  <g transform="translate(380.0, 195.0) scale(1.6666666666666667)" fill="#22D3EE">
+    <path d="M17.333 3a3.667 3.667 0 0 1 3.667 3.667v10.666a3.667 3.667 0 0 1 -3.667 3.667h-10.666a3.667 3.667 0 0 1 -3.667 -3.667v-10.666a3.667 3.667 0 0 1 3.667 -3.667zm-3.583 3a2.38 2.38 0 0 0 -2.37 2.145l-.285 2.855h-2.095l-.117 .007a1 1 0 0 0 .117 1.993h1.894l-.265 2.656l-.014 .071a.38 .38 0 0 1 -.365 .273a.25 .25 0 0 1 -.25 -.25v-.25l-.007 -.117a1 1 0 0 0 -1.993 .117v.25l.005 .154a2.25 2.25 0 0 0 2.245 2.096a2.38 2.38 0 0 0 2.37 -2.145l.284 -2.855h2.096l.117 -.007a1 1 0 0 0 -.117 -1.993h-1.895l.266 -2.656l.014 -.071a.381 .381 0 0 1 .365 -.273a.25 .25 0 0 1 .25 .25v.25l.007 .117a1 1 0 0 0 1.993 -.117v-.25l-.005 -.154a2.25 2.25 0 0 0 -2.245 -2.096z" />
+  </g>
+  <text x="380" y="265" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#F1F5F9">Algorithm</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="380" y="300">Master the back-</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="380" y="324">propagation algorithm,</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="380" y="348">its mathematical</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="380" y="372">foundation including</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="380" y="396">loss functions, chain</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="380" y="420">rule, and gradient</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="380" y="444">computation</text><path fill="#1E293B" stroke="#334155" stroke-width="1" d="M672,160 H918 A12,12 0 0 1 930,172 V628 A12,12 0 0 1 918,640 H672 A12,12 0 0 1 660,628 V172 A12,12 0 0 1 672,160 Z" />
+  <path fill="#8B5CF6" d="M663,160 H927 A3,3 0 0 1 930,163 V163 A3,3 0 0 1 927,166 H663 A3,3 0 0 1 660,163 V163 A3,3 0 0 1 663,160 Z" />
+  
+  <g transform="translate(680.0, 195.0) scale(1.6666666666666667)" fill="#8B5CF6">
+    <path d="M12 4c4.29 0 7.863 2.429 10.665 7.154l.22 .379l.045 .1l.03 .083l.014 .055l.014 .082l.011 .1v.11l-.014 .111a.992 .992 0 0 1 -.026 .11l-.039 .108l-.036 .075l-.016 .03c-2.764 4.836 -6.3 7.38 -10.555 7.499l-.313 .004c-4.396 0 -8.037 -2.549 -10.868 -7.504a1 1 0 0 1 0 -.992c2.831 -4.955 6.472 -7.504 10.868 -7.504zm0 5a3 3 0 1 0 0 6a3 3 0 0 0 0 -6" />
+  </g>
+  <text x="680" y="265" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#F1F5F9">Applications</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="680" y="300">Explore real-world</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="680" y="324">uses: pattern</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="680" y="348">recognition, face</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="680" y="372">recognition with</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="680" y="396">CNNs, and speech</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="680" y="420">recognition systems</text><path fill="#1E293B" stroke="#334155" stroke-width="1" d="M972,160 H1218 A12,12 0 0 1 1230,172 V628 A12,12 0 0 1 1218,640 H972 A12,12 0 0 1 960,628 V172 A12,12 0 0 1 972,160 Z" />
+  <path fill="#10B981" d="M963,160 H1227 A3,3 0 0 1 1230,163 V163 A3,3 0 0 1 1227,166 H963 A3,3 0 0 1 960,163 V163 A3,3 0 0 1 963,160 Z" />
+  
+  <g transform="translate(980.0, 195.0) scale(1.6666666666666667)" fill="#10B981">
+    <path d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" />
+  </g>
+  <text x="980" y="265" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#F1F5F9">Evaluation</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="980" y="300">Understand the</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="980" y="324">history, key points,</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="980" y="348">advantages, and</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="980" y="372">limitations of</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="980" y="396">backpropagation</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="980" y="420">in modern AI</text><text x="1220" y="700" text-anchor="end" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#64748B">02</text>
+</svg>

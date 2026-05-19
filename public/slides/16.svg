@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#0F172A" />
+  <path fill="url(#titleGrad)" d="M62,50 H138 A2,2 0 0 1 140,52 V52 A2,2 0 0 1 138,54 H62 A2,2 0 0 1 60,52 V52 A2,2 0 0 1 62,50 Z" />
+
+  
+  <g transform="translate(60.0, 68.0) scale(1.25)" fill="#3B82F6">
+    <path d="M12 4c4.29 0 7.863 2.429 10.665 7.154l.22 .379l.045 .1l.03 .083l.014 .055l.014 .082l.011 .1v.11l-.014 .111a.992 .992 0 0 1 -.026 .11l-.039 .108l-.036 .075l-.016 .03c-2.764 4.836 -6.3 7.38 -10.555 7.499l-.313 .004c-4.396 0 -8.037 -2.549 -10.868 -7.504a1 1 0 0 1 0 -.992c2.831 -4.955 6.472 -7.504 10.868 -7.504zm0 5a3 3 0 1 0 0 6a3 3 0 0 0 0 -6" />
+  </g>
+  <text x="100" y="92" font-family="Georgia, 'Microsoft YaHei', serif" font-size="30" font-weight="bold" fill="#F1F5F9">Pattern Recognition</text>
+
+  
+  <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M72,120 H418 A12,12 0 0 1 430,132 V648 A12,12 0 0 1 418,660 H72 A12,12 0 0 1 60,648 V132 A12,12 0 0 1 72,120 Z" />
+  <path fill="#3B82F6" d="M63,120 H427 A3,3 0 0 1 430,123 V123 A3,3 0 0 1 427,126 H63 A3,3 0 0 1 60,123 V123 A3,3 0 0 1 63,120 Z" />
+  <text x="80" y="165" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#3B82F6">What is a Pattern?</text>
+  <line x1="80" y1="180" x2="400" y2="180" stroke="#334155" stroke-width="1" />
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="80" y="210">A set of objects or phenomena</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="80" y="234">where the elements share</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="80" y="258">similar traits or characteristics.</text><path fill="#3B82F6" fill-opacity="0.08" stroke="#3B82F6" stroke-width="1" stroke-opacity="0.3" d="M88,290 H402 A8,8 0 0 1 410,298 V352 A8,8 0 0 1 402,360 H88 A8,8 0 0 1 80,352 V298 A8,8 0 0 1 88,290 Z" />
+  <text x="96" y="318" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#F1F5F9">Biological Examples:</text>
+  <text x="96" y="342" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#3B82F6">Paramecium, Amoeba, Euglena</text>
+
+  <path fill="#8B5CF6" fill-opacity="0.08" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3" d="M88,380 H402 A8,8 0 0 1 410,388 V442 A8,8 0 0 1 402,450 H88 A8,8 0 0 1 80,442 V388 A8,8 0 0 1 88,380 Z" />
+  <text x="96" y="408" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#F1F5F9">Celestial Examples:</text>
+  <text x="96" y="432" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#8B5CF6">Star constellations in night sky</text>
+
+  
+  <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M467,120 H813 A12,12 0 0 1 825,132 V648 A12,12 0 0 1 813,660 H467 A12,12 0 0 1 455,648 V132 A12,12 0 0 1 467,120 Z" />
+  <path fill="#22D3EE" d="M458,120 H822 A3,3 0 0 1 825,123 V123 A3,3 0 0 1 822,126 H458 A3,3 0 0 1 455,123 V123 A3,3 0 0 1 458,120 Z" />
+  <text x="475" y="165" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#22D3EE">Human Perception</text>
+  <line x1="475" y1="180" x2="795" y2="180" stroke="#334155" stroke-width="1" />
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="475" y="210">Humans naturally find patterns</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="475" y="234">even in completely random</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="475" y="258">noise and visual data.</text><path fill="#22D3EE" fill-opacity="0.08" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.3" d="M483,290 H797 A8,8 0 0 1 805,298 V372 A8,8 0 0 1 797,380 H483 A8,8 0 0 1 475,372 V298 A8,8 0 0 1 483,290 Z" />
+  <text x="491" y="318" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#F1F5F9">Pareidolia Effect</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#94A3B8" x="491" y="342">Perceiving meaningful shapes in</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#94A3B8" x="491" y="362">clouds, rock formations, noise</text><path fill="#F59E0B" fill-opacity="0.08" stroke="#F59E0B" stroke-width="1" stroke-opacity="0.3" d="M483,400 H797 A8,8 0 0 1 805,408 V462 A8,8 0 0 1 797,470 H483 A8,8 0 0 1 475,462 V408 A8,8 0 0 1 483,400 Z" />
+  
+  <g transform="translate(491.0, 415.0) scale(0.8333333333333334)" fill="#F59E0B">
+    <path d="M12 1.67c.955 0 1.845 .467 2.39 1.247l.105 .16l8.114 13.548a2.914 2.914 0 0 1 -2.307 4.363l-.195 .008h-16.225a2.914 2.914 0 0 1 -2.582 -4.2l.099 -.185l8.11 -13.538a2.914 2.914 0 0 1 2.491 -1.403zm.01 13.33l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -7a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z" />
+  </g>
+  <text x="519" y="432" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#F59E0B">Can lead to false positives</text>
+  <text x="491" y="454" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" fill="#94A3B8">Subjective, inconsistent results</text>
+
+  
+  <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M862,120 H1208 A12,12 0 0 1 1220,132 V648 A12,12 0 0 1 1208,660 H862 A12,12 0 0 1 850,648 V132 A12,12 0 0 1 862,120 Z" />
+  <path fill="#8B5CF6" d="M853,120 H1217 A3,3 0 0 1 1220,123 V123 A3,3 0 0 1 1217,126 H853 A3,3 0 0 1 850,123 V123 A3,3 0 0 1 853,120 Z" />
+  <text x="870" y="165" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#8B5CF6">Neural Network Approach</text>
+  <line x1="870" y1="180" x2="1190" y2="180" stroke="#334155" stroke-width="1" />
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="870" y="210">Neural networks trained via BP</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="870" y="234">excel at automated, consistent</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="870" y="258">pattern recognition.</text><path fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-width="1" stroke-opacity="0.3" d="M878,290 H1192 A8,8 0 0 1 1200,298 V332 A8,8 0 0 1 1192,340 H878 A8,8 0 0 1 870,332 V298 A8,8 0 0 1 878,290 Z" />
+  
+  <g transform="translate(882.0, 303.0) scale(0.8333333333333334)" fill="#10B981">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+  <text x="910" y="320" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#10B981">Objective and repeatable</text>
+
+  <path fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-width="1" stroke-opacity="0.3" d="M878,355 H1192 A8,8 0 0 1 1200,363 V397 A8,8 0 0 1 1192,405 H878 A8,8 0 0 1 870,397 V363 A8,8 0 0 1 878,355 Z" />
+  
+  <g transform="translate(882.0, 368.0) scale(0.8333333333333334)" fill="#10B981">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+  <text x="910" y="385" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#10B981">Scales to millions of samples</text>
+
+  <path fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-width="1" stroke-opacity="0.3" d="M878,420 H1192 A8,8 0 0 1 1200,428 V462 A8,8 0 0 1 1192,470 H878 A8,8 0 0 1 870,462 V428 A8,8 0 0 1 878,420 Z" />
+  
+  <g transform="translate(882.0, 433.0) scale(0.8333333333333334)" fill="#10B981">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+  <text x="910" y="450" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#10B981">Learns features automatically</text>
+
+  <path fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-width="1" stroke-opacity="0.3" d="M878,485 H1192 A8,8 0 0 1 1200,493 V527 A8,8 0 0 1 1192,535 H878 A8,8 0 0 1 870,527 V493 A8,8 0 0 1 878,485 Z" />
+  
+  <g transform="translate(882.0, 498.0) scale(0.8333333333333334)" fill="#10B981">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+  <text x="910" y="515" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="14" fill="#10B981">Real-time classification</text>
+
+  <text x="1220" y="700" text-anchor="end" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#64748B">16</text>
+</svg>

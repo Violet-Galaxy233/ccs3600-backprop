@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#0F172A" />
+  <path fill="url(#titleGrad)" d="M62,50 H138 A2,2 0 0 1 140,52 V52 A2,2 0 0 1 138,54 H62 A2,2 0 0 1 60,52 V52 A2,2 0 0 1 62,50 Z" />
+
+  
+  <g transform="translate(60.0, 68.0) scale(1.25)" fill="#F59E0B">
+    <path d="M12 1.67c.955 0 1.845 .467 2.39 1.247l.105 .16l8.114 13.548a2.914 2.914 0 0 1 -2.307 4.363l-.195 .008h-16.225a2.914 2.914 0 0 1 -2.582 -4.2l.099 -.185l8.11 -13.538a2.914 2.914 0 0 1 2.491 -1.403zm.01 13.33l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -7a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z" />
+  </g>
+  <text x="100" y="92" font-family="Georgia, 'Microsoft YaHei', serif" font-size="30" font-weight="bold" fill="#F1F5F9">Disadvantages of Backpropagation</text>
+
+  
+  <path fill="#1E293B" stroke="#F59E0B" stroke-width="1.5" d="M72,130 H613 A12,12 0 0 1 625,142 V288 A12,12 0 0 1 613,300 H72 A12,12 0 0 1 60,288 V142 A12,12 0 0 1 72,130 Z" />
+  <path fill="#F59E0B" d="M63,130 H63 A3,3 0 0 1 66,133 V297 A3,3 0 0 1 63,300 H63 A3,3 0 0 1 60,297 V133 A3,3 0 0 1 63,130 Z" />
+  
+  <g transform="translate(86.0, 152.0) scale(1.1666666666666667)" fill="#F59E0B">
+    <path d="M12 1.67c.955 0 1.845 .467 2.39 1.247l.105 .16l8.114 13.548a2.914 2.914 0 0 1 -2.307 4.363l-.195 .008h-16.225a2.914 2.914 0 0 1 -2.582 -4.2l.099 -.185l8.11 -13.538a2.914 2.914 0 0 1 2.491 -1.403zm.01 13.33l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -7a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z" />
+  </g>
+  <text x="124" y="174" font-family="Georgia, 'Microsoft YaHei', serif" font-size="18" font-weight="bold" fill="#F59E0B">Data Quality Dependency</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="86" y="210">Performance is heavily dependent on the quality of input</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="86" y="234">data. Poor or biased training data leads to inaccurate</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="86" y="258">weight adjustments and unreliable models.</text><path fill="#1E293B" stroke="#F59E0B" stroke-width="1.5" d="M667,130 H1208 A12,12 0 0 1 1220,142 V288 A12,12 0 0 1 1208,300 H667 A12,12 0 0 1 655,288 V142 A12,12 0 0 1 667,130 Z" />
+  <path fill="#F59E0B" d="M658,130 H658 A3,3 0 0 1 661,133 V297 A3,3 0 0 1 658,300 H658 A3,3 0 0 1 655,297 V133 A3,3 0 0 1 658,130 Z" />
+  
+  <g transform="translate(681.0, 152.0) scale(1.1666666666666667)" fill="#F59E0B">
+    <path d="M12 1.67c.955 0 1.845 .467 2.39 1.247l.105 .16l8.114 13.548a2.914 2.914 0 0 1 -2.307 4.363l-.195 .008h-16.225a2.914 2.914 0 0 1 -2.582 -4.2l.099 -.185l8.11 -13.538a2.914 2.914 0 0 1 2.491 -1.403zm.01 13.33l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -7a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z" />
+  </g>
+  <text x="719" y="174" font-family="Georgia, 'Microsoft YaHei', serif" font-size="18" font-weight="bold" fill="#F59E0B">Noise Sensitivity</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="681" y="210">The algorithm is highly sensitive to noisy data.</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="681" y="234">Noise in training samples can propagate through the</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="681" y="258">network and degrade overall learning effectiveness.</text><path fill="#1E293B" stroke="#F59E0B" stroke-width="1.5" d="M72,330 H613 A12,12 0 0 1 625,342 V488 A12,12 0 0 1 613,500 H72 A12,12 0 0 1 60,488 V342 A12,12 0 0 1 72,330 Z" />
+  <path fill="#F59E0B" d="M63,330 H63 A3,3 0 0 1 66,333 V497 A3,3 0 0 1 63,500 H63 A3,3 0 0 1 60,497 V333 A3,3 0 0 1 63,330 Z" />
+  
+  <g transform="translate(86.0, 352.0) scale(1.1666666666666667)" fill="#F59E0B">
+    <path d="M12 1.67c.955 0 1.845 .467 2.39 1.247l.105 .16l8.114 13.548a2.914 2.914 0 0 1 -2.307 4.363l-.195 .008h-16.225a2.914 2.914 0 0 1 -2.582 -4.2l.099 -.185l8.11 -13.538a2.914 2.914 0 0 1 2.491 -1.403zm.01 13.33l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -7a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z" />
+  </g>
+  <text x="124" y="374" font-family="Georgia, 'Microsoft YaHei', serif" font-size="18" font-weight="bold" fill="#F59E0B">Batch Strategy Trade-offs</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="86" y="410">Full matrix-based approach is preferred over mini-batch</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="86" y="434">for accuracy, but requires significantly more memory</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="86" y="458">and computation per update step.</text><path fill="#1E293B" stroke="#F59E0B" stroke-width="1.5" d="M667,330 H1208 A12,12 0 0 1 1220,342 V488 A12,12 0 0 1 1208,500 H667 A12,12 0 0 1 655,488 V342 A12,12 0 0 1 667,330 Z" />
+  <path fill="#F59E0B" d="M658,330 H658 A3,3 0 0 1 661,333 V497 A3,3 0 0 1 658,500 H658 A3,3 0 0 1 655,497 V333 A3,3 0 0 1 658,330 Z" />
+  
+  <g transform="translate(681.0, 352.0) scale(1.1666666666666667)" fill="#F59E0B">
+    <path d="M12 1.67c.955 0 1.845 .467 2.39 1.247l.105 .16l8.114 13.548a2.914 2.914 0 0 1 -2.307 4.363l-.195 .008h-16.225a2.914 2.914 0 0 1 -2.582 -4.2l.099 -.185l8.11 -13.538a2.914 2.914 0 0 1 2.491 -1.403zm.01 13.33l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -7a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z" />
+  </g>
+  <text x="719" y="374" font-family="Georgia, 'Microsoft YaHei', serif" font-size="18" font-weight="bold" fill="#F59E0B">Vanishing / Exploding Gradients</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="681" y="410">Gradients can become vanishingly small or explosively</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="681" y="434">large in deep networks, making training unstable or</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="681" y="458">impossible for certain architectures.</text><path fill="#1E293B" stroke="#F59E0B" stroke-width="1.5" d="M72,530 H1208 A12,12 0 0 1 1220,542 V648 A12,12 0 0 1 1208,660 H72 A12,12 0 0 1 60,648 V542 A12,12 0 0 1 72,530 Z" />
+  <path fill="#F59E0B" d="M63,530 H1217 A3,3 0 0 1 1220,533 V533 A3,3 0 0 1 1217,536 H63 A3,3 0 0 1 60,533 V533 A3,3 0 0 1 63,530 Z" />
+  
+  <g transform="translate(86.0, 560.0) scale(1.1666666666666667)" fill="#F59E0B">
+    <path d="M12 1.67c.955 0 1.845 .467 2.39 1.247l.105 .16l8.114 13.548a2.914 2.914 0 0 1 -2.307 4.363l-.195 .008h-16.225a2.914 2.914 0 0 1 -2.582 -4.2l.099 -.185l8.11 -13.538a2.914 2.914 0 0 1 2.491 -1.403zm.01 13.33l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -7a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z" />
+  </g>
+  <text x="124" y="582" font-family="Georgia, 'Microsoft YaHei', serif" font-size="18" font-weight="bold" fill="#F59E0B">Computational Expense</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="86" y="616">For large networks with millions of parameters, backpropagation becomes computationally expensive.</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="15" fill="#94A3B8" x="86" y="640">Each training iteration requires a full forward and backward pass, scaling with network depth and width.</text><text x="1220" y="700" text-anchor="end" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#64748B">21</text>
+</svg>

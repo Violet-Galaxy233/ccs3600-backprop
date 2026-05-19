@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#0F172A" />
+
+  
+  <rect x="0" y="0" width="1280" height="720" fill="url(#centerGlow)" />
+
+  <path fill="url(#titleGrad)" d="M62,50 H138 A2,2 0 0 1 140,52 V52 A2,2 0 0 1 138,54 H62 A2,2 0 0 1 60,52 V52 A2,2 0 0 1 62,50 Z" />
+  <text x="60" y="90" font-family="Georgia, 'Microsoft YaHei', serif" font-size="30" font-weight="bold" fill="#F1F5F9">Applications of Feed Forward Networks</text>
+
+  
+  <circle cx="640" cy="360" r="100" fill="#1E293B" stroke="#3B82F6" stroke-width="2" />
+  <circle cx="640" cy="360" r="85" fill="#0F172A" stroke="#334155" stroke-width="1" />
+  
+  <g transform="translate(608.0, 320.0) scale(2.6666666666666665)" fill="#3B82F6">
+    <path d="M2 16.667a2.667 2.667 0 0 1 2.667 -2.667h2.666a2.667 2.667 0 0 1 2.667 2.667v2.666a2.667 2.667 0 0 1 -2.667 2.667h-2.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+    <path d="M14 16.667a2.667 2.667 0 0 1 2.667 -2.667h2.666a2.667 2.667 0 0 1 2.667 2.667v2.666a2.667 2.667 0 0 1 -2.667 2.667h-2.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+    <path d="M8 4.667a2.667 2.667 0 0 1 2.667 -2.667h2.666a2.667 2.667 0 0 1 2.667 2.667v2.666a2.667 2.667 0 0 1 -2.667 2.667h-2.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+    <path d="M12 8a1 1 0 0 0 -1 1v2h-3c-1.645 0 -3 1.355 -3 3v1a1 1 0 0 0 1 1a1 1 0 0 0 1 -1v-1c0 -.564 .436 -1 1 -1h8c.564 0 1 .436 1 1v1a1 1 0 0 0 1 1a1 1 0 0 0 1 -1v-1c0 -1.645 -1.355 -3 -3 -3h-3v-2a1 1 0 0 0 -1 -1z" />
+  </g>
+  <text x="640" y="410" text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="14" font-weight="bold" fill="#22D3EE">Parallel</text>
+  <text x="640" y="428" text-anchor="middle" font-family="Georgia, 'Microsoft YaHei', serif" font-size="14" font-weight="bold" fill="#22D3EE">Processing</text>
+
+  
+  <line x1="540" y1="310" x2="260" y2="210" stroke="#3B82F6" stroke-width="1.5" stroke-opacity="0.4" />
+  <circle cx="210" cy="190" r="60" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  
+  <g transform="translate(190.0, 160.0) scale(1.6666666666666667)" fill="#3B82F6">
+    <path d="M14 1a3 3 0 0 1 2.348 4.868l2 3.203q .317 -.071 .652 -.071a3 3 0 1 1 -2.347 1.132l-2 -3.203a3 3 0 0 1 -1.304 0l-2.001 3.203c.408 .513 .652 1.162 .652 1.868s-.244 1.356 -.653 1.868l2.002 3.203q .315 -.071 .651 -.071a3 3 0 1 1 -2.347 1.132l-2.003 -3.203a3 3 0 0 1 -1.302 0l-2.002 3.203a3 3 0 1 1 -1.696 -1.06l2.002 -3.204a3 3 0 0 1 2.998 -4.798l2.002 -3.202a3 3 0 0 1 2.348 -4.868" />
+  </g>
+  <text x="210" y="225" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="bold" fill="#F1F5F9">Independent</text>
+  <text x="210" y="241" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="bold" fill="#F1F5F9">Networks</text>
+
+  
+  <line x1="640" y1="260" x2="640" y2="150" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.4" />
+  <circle cx="640" cy="130" r="60" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  
+  <g transform="translate(620.0, 100.0) scale(1.6666666666666667)" fill="#22D3EE">
+    <path d="M15.707 8.293a1 1 0 0 1 0 1.414l-6 6a1 1 0 1 1 -1.414 -1.414l6 -6a1 1 0 0 1 1.414 0" />
+    <path d="M19.242 4.757c2.343 2.344 2.342 6.143 -.052 8.534l-.534 .464a1 1 0 1 1 -1.312 -1.51l.483 -.416a4 4 0 0 0 0 -5.657c-1.562 -1.563 -4.095 -1.563 -5.607 -.054l-.463 .536a1 1 0 1 1 -1.514 -1.308l.513 -.59a6 6 0 0 1 8.486 .001" />
+    <path d="M6.75 10.338a1 1 0 0 1 -.088 1.411l-.483 .425a3.97 3.97 0 0 0 0 5.649a4.064 4.064 0 0 0 5.678 .038l.34 -.458a1 1 0 1 1 1.606 1.194l-.397 .534l-.1 .114a6.07 6.07 0 0 1 -8.533 0a5.97 5.97 0 0 1 -1.773 -4.247c0 -1.595 .638 -3.124 1.814 -4.284l.524 -.463a1 1 0 0 1 1.411 .087" />
+  </g>
+  <text x="640" y="165" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="bold" fill="#F1F5F9">Mild</text>
+  <text x="640" y="181" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="bold" fill="#F1F5F9">Intermediary</text>
+
+  
+  <line x1="740" y1="310" x2="1020" y2="210" stroke="#8B5CF6" stroke-width="1.5" stroke-opacity="0.4" />
+  <circle cx="1070" cy="190" r="60" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  
+  <g transform="translate(1050.0, 160.0) scale(1.6666666666666667)" fill="#8B5CF6">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+  <text x="1070" y="225" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="bold" fill="#F1F5F9">Synthesized</text>
+  <text x="1070" y="241" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="13" font-weight="bold" fill="#F1F5F9">Output</text>
+
+  
+  <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M152,500 H1128 A12,12 0 0 1 1140,512 V628 A12,12 0 0 1 1128,640 H152 A12,12 0 0 1 140,628 V512 A12,12 0 0 1 152,500 Z" />
+  <text x="180" y="540" font-family="Georgia, 'Microsoft YaHei', serif" font-size="20" font-weight="bold" fill="#F1F5F9">Like the Human Brain</text>
+  <text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="180" y="575">Multiple independent neurons handle and process larger tasks. Individual networks</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="180" y="599">perform their tasks independently, and results are combined at the end to produce</text><text font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="16" fill="#94A3B8" x="180" y="623">a synthesized, cohesive output — mimicking biological neural parallel processing.</text><text x="1220" y="700" text-anchor="end" font-family="Arial, 'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#64748B">06</text>
+</svg>

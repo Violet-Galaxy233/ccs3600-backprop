@@ -1,8 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Container from "@/components/Container";
-import Math from "@/components/Math";
 import { lecture } from "@/content/lecture/lecture";
-import type { LectureBlock, PartId } from "@/content/lecture/types";
+import type { PartId } from "@/content/lecture/types";
 import { pickLang } from "@/lib/i18n-content";
 
 const PART_ORDER: PartId[] = [
@@ -12,80 +11,7 @@ const PART_ORDER: PartId[] = [
   "evaluation",
 ];
 
-function Block({
-  block,
-  locale,
-}: {
-  block: LectureBlock;
-  locale: string;
-}) {
-  switch (block.type) {
-    case "paragraph":
-      return (
-        <p className="leading-relaxed text-fg-muted">
-          {pickLang(block.text, locale)}
-        </p>
-      );
-    case "list":
-      return (
-        <ul className="list-disc space-y-1.5 pl-5 text-fg-muted">
-          {block.items.map((it, i) => (
-            <li key={i}>{pickLang(it, locale)}</li>
-          ))}
-        </ul>
-      );
-    case "steps":
-      return (
-        <ol className="list-decimal space-y-1.5 pl-5 text-fg-muted marker:text-cyan marker:font-semibold">
-          {block.steps.map((it, i) => (
-            <li key={i}>{pickLang(it, locale)}</li>
-          ))}
-        </ol>
-      );
-    case "math":
-      return <Math tex={block.tex} />;
-    case "callout":
-      return (
-        <div
-          className={`rounded-xl border-l-4 px-4 py-3 ${
-            block.variant === "key"
-              ? "border-cyan bg-cyan/5"
-              : "border-violet bg-violet/5"
-          }`}
-        >
-          <p className="text-sm text-fg">{pickLang(block.text, locale)}</p>
-        </div>
-      );
-    case "compare":
-      return (
-        <div className="grid gap-3 sm:grid-cols-2">
-          {(
-            [
-              { title: block.leftTitle, items: block.left },
-              { title: block.rightTitle, items: block.right },
-            ] as const
-          ).map((col, i) => (
-            <div key={i} className="rounded-xl border border-border p-4">
-              <p className="mb-2 font-semibold text-fg">
-                {pickLang(col.title, locale)}
-              </p>
-              <ul className="list-disc space-y-1 pl-5 text-sm text-fg-muted">
-                {col.items.map((it, j) => (
-                  <li key={j}>{pickLang(it, locale)}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      );
-    case "reference":
-      return (
-        <p className="text-sm italic text-fg-muted">↳ {block.cite}</p>
-      );
-    default:
-      return null;
-  }
-}
+const slideSrc = (n: number) => `/slides/${String(n).padStart(2, "0")}.svg`;
 
 export default async function LecturePage({
   params,
@@ -141,9 +67,9 @@ export default async function LecturePage({
                   <article
                     key={s.id}
                     id={s.id}
-                    className="card scroll-mt-24 p-6 sm:p-8"
+                    className="card scroll-mt-24 overflow-hidden"
                   >
-                    <div className="flex items-baseline justify-between gap-4">
+                    <div className="flex items-baseline justify-between gap-4 px-6 pt-6 sm:px-8">
                       <h3 className="text-xl font-bold sm:text-2xl">
                         {pickLang(s.title, locale)}
                       </h3>
@@ -151,11 +77,23 @@ export default async function LecturePage({
                         {t("slideRef", { n: s.slideRef })}
                       </span>
                     </div>
-                    <div className="mt-4 space-y-4">
-                      {s.body.map((b, i) => (
-                        <Block key={i} block={b} locale={locale} />
-                      ))}
-                    </div>
+                    <a
+                      href={slideSrc(s.slideRef)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-4 block bg-[#0F172A]"
+                      aria-label={pickLang(s.title, locale)}
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={slideSrc(s.slideRef)}
+                        alt={pickLang(s.title, locale)}
+                        width={1280}
+                        height={720}
+                        loading="lazy"
+                        className="aspect-video w-full"
+                      />
+                    </a>
                   </article>
                 ))}
               </div>
