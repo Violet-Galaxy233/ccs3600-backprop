@@ -16,9 +16,8 @@ fallback for any not-yet-finalized strings).
 | Video | The ~18-minute AI-narrated lecture video |
 | Quiz | 20-question auto-graded quiz with instant feedback, explanations and a live score |
 | Resources | Download the enhanced PPTX and the PDF |
-| Report | Phase 1 — AI tools & workflow report |
-| Prompts | Phase 1 — prompt examples used in the AI pipeline |
-| Making-Of | Phase 2 — how this website itself was planned and built (new tool-use report + prompts) |
+| Report | AI tools & workflow report |
+| Prompts | Prompt examples used in the AI pipeline |
 
 ## Tech
 

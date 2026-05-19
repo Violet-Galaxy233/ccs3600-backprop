@@ -1,95 +1,73 @@
-# Short Report — AI Tools Used & Workflow
+# Short Report: AI Tools and Workflow
 
-**Course:** CCS3600 Artificial Intelligence — Natural Language Processing
-**Project:** AI-Assisted Teaching Content Enhancement
-**Topic:** (10) Back Propagation
-**Deliverable:** Item 4 — Short report (tools used & workflow)
+Course: CCS3600 Artificial Intelligence (Natural Language Processing)
+Project: AI-Assisted Teaching Content Enhancement, Topic 10: Back Propagation
+Deliverable 4: short report on the tools used and how I worked
 
----
+## What I started with and what I ended up with
 
-## 1. Summary
+The original lecture material was a 32-slide deck on Back Propagation Neural Networks, and it was very text-heavy. Most pages were just paragraphs pasted onto a slide. My aim was not to rewrite the course content but to make it presentable and actually usable as a narrated lecture.
 
-The original teaching material was a 32-slide, text-heavy PowerPoint deck on Back Propagation Neural Networks. Using an AI-driven pipeline, we transformed it into a 22-slide, professionally designed, natively-editable PowerPoint presentation with AI-generated visuals, a ~17.5-minute narrated lecture video, and a synchronized subtitle track. This report documents the AI tools used and the end-to-end workflow.
+What I ended up with is a 22-slide deck that is still a real, editable PowerPoint file (not images pasted into slides), four custom illustrations, a roughly 17 to 18 minute narrated video, and a subtitle file that lines up with the audio word for word.
 
----
+I got from 32 slides to 22 by merging repeated content, not by cutting topics. Everything from the original is still there: the chain-rule derivation, the BP versus BPTT distinction, the history, and the applications.
 
-## 2. AI Tools Used
+## Tools I used
 
-| Tool | Role in this project | Why this tool |
-|---|---|---|
-| **Claude Code (Claude Opus 4.7)** | The AI agent/editor that orchestrated the entire pipeline: content analysis, design decisions, SVG authoring, narration scripting, debugging. | Strong long-context reasoning and precise layout/coordinate control — produces the highest-fidelity slide design among current models. |
-| **PPT Master** (open-source framework) | The workflow that converts source documents into a *natively editable* PPTX through an AI-generates-SVG → script-converts-to-DrawingML pipeline. | See Section 5 — the core reason native, editable output was achievable. |
-| **OpenAI `gpt-image-2`** | Generated 4 custom 3D-isometric neural-network visuals (cover background, applications divider, feed-forward architecture diagram, backpropagation flow diagram). | High prompt adherence for technical/abstract concept art and consistent style across a set. |
-| **Microsoft Edge Neural TTS** (`edge-tts`, voice `en-US-AvaMultilingualNeural`) | Generated the per-slide voice narration and the word-boundary-timed subtitle track. | Natural, intelligible neural voice; emits real word-level timestamps so subtitles stay perfectly in sync with the audio. |
-| Google Gemini API | Configured as a fallback image backend (not used in the final output). | Redundancy in case the primary image model was unavailable. |
+Most of the work went through Claude Code (Claude Opus 4.7) acting as the editor and as the thing that actually wrote the slide source. I chose it because the slides are built as hand-placed vector graphics, and it kept the coordinates and layout consistent across 22 pages without drifting the way smaller models did.
 
-These tools map onto the assignment's "Suggested AI Tools" categories: ChatGPT/Gemini-class generative AI (used here via Claude + gpt-image-2) for slide enhancement, and an AI voice/narration + subtitle pipeline for the lecture video.
+The deck itself was produced with PPT Master, which is open source. Instead of exporting slides as pictures, it has the AI write SVG and then converts that SVG into the native DrawingML shapes PowerPoint uses internally. That one design choice is the reason every text box and shape in the final file is still selectable and editable. I explain why this mattered for the assignment further down.
 
----
+The four illustrations (the cover, the applications divider, the feed-forward diagram, and the backprop flow diagram) were generated with OpenAI's gpt-image-2. I used it because it stayed on-style across a set of images once the prompt pinned down the exact colours and projection.
 
-## 3. Workflow (End-to-End Pipeline)
+The narration and subtitles came from Microsoft Edge's neural TTS (edge-tts, voice en-US-AvaMultilingualNeural). It sounds natural enough for a lecture, and more usefully it returns real word-level timestamps, so the subtitles match the voice instead of being estimated.
 
-```
-Source docs → Strategy/Design → AI Images → Slide Construction
-   → Quality Gate → Narration Script → Export → Audio → Subtitles → Video-ready PPTX
-```
+I also had Google's Gemini image API set up as a backup in case gpt-image-2 went down. It was never needed, and nothing in the final deck came from it.
 
-**Step 1 — Source ingestion.** The original `back propagation.pptx` (32 slides) and the project requirements PDF were converted to Markdown so the AI could analyze the full academic content and the grading rubric.
+## How the work actually went
 
-**Step 2 — Strategy & design specification.** The content was restructured from 32 redundant, text-dense slides into a 22-slide narrative with clear information hierarchy. A formal design specification was produced and locked: a dark "tech / neural-network" theme, a 4-color system (deep slate `#0F172A`, electric blue `#3B82F6`, cyan `#22D3EE`, purple `#8B5CF6`), a typographic scale, and a per-page icon and image plan. **All original academic content and learning outcomes were preserved** — consolidation removed repetition, not substance.
+Roughly in order:
 
-**Step 3 — AI image generation.** Four bespoke 3D-isometric illustrations were generated with `gpt-image-2` using detailed, color-locked prompts (see the companion *Prompt Examples* document) so every image matched the deck's palette and style.
+First I converted the original PPTX and the project brief into Markdown, so the content and the marking criteria were both in front of me while I worked.
 
-**Step 4 — Slide construction.** All 22 slides were authored as SVG vector graphics, one page at a time, following the locked design spec for visual consistency (custom neural-network diagrams, formula displays, comparison layouts, timelines, infographic cards).
+Then I spent time on structure before touching any visuals. I decided which slides should merge, what the information hierarchy on each page should be, and I locked a design spec early: a dark "neural network" look with a fixed four-colour palette (deep slate #0F172A, blue #3B82F6, cyan #22D3EE, purple #8B5CF6), a type scale, and a per-slide plan for icons and images. Locking that early is what kept 22 separately generated slides looking like one deck.
 
-**Step 5 — Quality gate.** An automated quality checker validated every slide (correct canvas, no forbidden constructs, no broken image/icon references). Issues found — four image-path errors and several missing-icon references — were diagnosed and fixed before proceeding (0 errors at release).
+The four images were generated next, against detailed prompts that fixed the palette and style. The actual prompts are in the companion document.
 
-**Step 6 — Narration script.** A lecturer-style speaking script was written for all 22 slides. After a duration test, the script was deliberately revised: an over-long version was *trimmed* (not sped up) so the final narration runs at a natural pace and lands within the required 15–20 minute window.
+Slides were then built one page at a time as SVG, following the spec. After that I ran an automated check over every slide for the obvious failure modes: wrong canvas size, broken image or icon references, anything malformed. It did catch real problems, four broken image paths and several missing icon references, which I fixed before moving on.
 
-**Step 7 — Export.** Post-processing converted the SVGs into a PowerPoint file built from **native DrawingML shapes** — every text box, gradient, and shape is individually selectable and editable, not a flattened image.
+I wrote a speaking script for all 22 slides and then did a timing test. The first version ran long. Rather than speed the voice up, which sounds rushed and is an obvious giveaway, I went back and cut the script down until it landed inside the 15 to 20 minute window at a normal pace.
 
-**Step 8 — Audio & subtitles.** Per-slide narration was generated with `edge-tts` at a natural pace (total ≈ 17.6 min). Word-timed subtitles were generated *together with* the audio and stitched into a single SRT, so captions match the spoken words exactly.
+Finally the SVGs were exported to a native PPTX, the per-slide audio was generated with the word-timed subtitles in the same pass, slide auto-advance timings were set from each slide's real audio length, and the SRT cues were stitched together with the right offsets.
 
-**Step 9 — Video-ready deck.** The narration was embedded back into the PPTX with auto-advance timings derived from each slide's real audio length, producing a self-running ~17.5-minute lecture video with an accompanying `.srt` subtitle file.
+## What I had to fix myself
 
----
+This was not a generate-once-and-submit job. The things I changed by hand:
 
-## 4. Human Review, Verification & Original Contribution
+- The 32 to 22 restructuring was my editorial call, not the model's. I decided what merged.
+- I checked the technical content on every slide against the original lecture: the formulas, the chain-rule explanation, the BP/BPTT distinction, the timeline.
+- The broken image paths and wrong icon references that the quality check flagged were fixed manually.
+- The narration was too long on the first pass, so I rewrote it shorter instead of speeding up playback.
+- The first subtitle track was timed by estimation and drifted ahead of the voice. I threw it out and regenerated it from real word boundaries.
 
-In line with the project's academic-integrity requirements, AI output was reviewed and corrected throughout — this was not a copy-paste of raw AI generation:
+## Why PPT Master and not a one-click tool
 
-- **Content restructuring** was a human-directed editorial decision (32 → 22 slides), preserving all learning outcomes while removing redundancy.
-- **Technical accuracy** of every slide (formulas, the chain-rule explanation, the BP vs. BPTT distinction, the history timeline) was verified against the original lecture material.
-- **Defect fixing:** image-path errors, missing/incorrect icon references, and an audio/subtitle synchronization problem were each identified and resolved manually.
-- **Narration pacing** was a judgement call: the first script was too long; rather than speed up the voice (which sounded rushed), the script itself was rewritten to a moderate length at a natural pace.
-- **Subtitle accuracy:** an initial estimated-timing subtitle track drifted ahead of the voice; it was replaced with a regenerated, word-boundary-accurate track.
+I deliberately did not use a browser "type a topic, get slides" generator for the final file. My reasons:
 
----
+The output is a real PowerPoint. Most AI slide tools either embed each slide as a flat image or render HTML that falls apart on PPTX export. PPT Master goes AI to SVG to DrawingML, so the exported deck is made of normal PowerPoint objects. That matters here directly, because the brief asks for professional, modifiable slides and explicitly says not to hand in unmodified AI output. With this approach I could actually edit the AI's work, and I did.
 
-## 5. Why PPT Master (Tool Justification)
+It is free and open source, so the only cost was my own model usage, not another monthly subscription on top of that.
 
-We deliberately did **not** use a one-click browser SaaS generator for the final deliverable. The decisive factors, drawn from the tool's design rationale ([`docs/why-ppt-master.md`](https://github.com/hugohe3/ppt-master/blob/main/docs/why-ppt-master.md)):
+It runs locally. The source file, the generation, and the export all happen on my machine, so nothing gets uploaded to a third-party slide service.
 
-1. **Real PowerPoint output, not images or web exports.** Most AI slide tools embed each slide as a flat image, or render HTML that breaks on PPTX export. PPT Master takes a different path: the AI generates **SVG**, then scripts convert SVG to **DrawingML** — the same class of absolute-coordinate 2D vector format PowerPoint uses natively. The result: every shape, text box, gradient, and shadow in the exported deck is a real, editable PowerPoint object. This directly satisfies the rubric's demand for professional, modifiable slides and the "do not submit unmodified AI output" rule — we could (and did) hand-edit the AI's work.
+The honest downside is that it needs local setup and it is slow, because it generates pages one at a time on purpose to keep the deck consistent. For a course project where editability and being able to verify every slide mattered more than speed, that trade was worth it, and it is also the safer position on the academic-integrity rule.
 
-2. **Transparent cost.** The framework is free and open-source; the only spend is our own AI model usage. No separate $8–45/month presentation subscription (Gamma, Beautiful.ai) on top of AI costs.
+## What this produced
 
-3. **Data privacy — 100% local.** Source documents are converted, slides generated, and the PPTX exported entirely on the local machine. Nothing is uploaded to a third-party presentation server.
+- The improved slide deck: a native, editable 22-slide PPTX.
+- The lecture video: the same PPTX with embedded narration and auto-advance timing, about 17.5 minutes, exportable to MP4 from PowerPoint.
+- A word-accurate subtitle file (SRT, 155 cues).
+- This report.
+- The prompt examples, in a separate document.
 
-4. **No lock-in.** It is a framework, not a plugin tied to one editor or model — the workflow is portable across AI editors and models.
-
-**Honest trade-off:** PPT Master requires local setup and is slower than SaaS tools (serial, page-by-page generation for cross-slide consistency). For this project, native editability, verifiable accuracy, and full control over the output outweighed the convenience of instant browser generation — which is exactly the academic-integrity posture the assignment asks for.
-
----
-
-## 6. Deliverables Produced by This Workflow
-
-| # | Deliverable | Output |
-|---|---|---|
-| 1 | Improved slide presentation | `exports/back-propagation_20260518_210333.pptx` (native editable, 22 slides) |
-| 2 | AI-generated lecture video | Same PPTX with embedded narration + auto-advance timings (~17.5 min); export to MP4 via PowerPoint |
-| — | Subtitle track | `exports/back-propagation_subtitles.srt` (word-accurate, 155 cues) |
-| 4 | Short report (this document) | `report/Short_Report_Tools_and_Workflow.md` |
-| 5 | Prompt examples | `report/Prompt_Examples.md` |
-
-*(Item 3, auto-gradable assessment activities, is a separate task and is not covered by this report.)*
+The auto-gradable quiz activity is a different deliverable and is not covered here.

@@ -20,8 +20,7 @@
     "quiz": "Quiz",
     "resources": "Resources",
     "report": "Report",
-    "prompts": "Prompts",
-    "makingOf": "Making-Of"
+    "prompts": "Prompts"
   },
   "footer": {
     "tagline": "Enhanced with AI tools for the CCS3600 mini-project.",
@@ -137,10 +136,6 @@
   "prompts": {
     "title": "Prompt Examples",
     "intro": "The actual prompts used across the AI-assisted pipeline, organized by stage."
-  },
-  "makingOf": {
-    "title": "Making-Of: Trilingual Web Delivery",
-    "intro": "Phase 2 documentation — how this website itself was planned and built with Claude Code, with the prompts and tools used."
   },
   "notFound": {
     "title": "Page not found",

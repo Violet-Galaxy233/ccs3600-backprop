@@ -20,8 +20,7 @@
     "quiz": "Kuiz",
     "resources": "Sumber",
     "report": "Laporan",
-    "prompts": "Gesaan",
-    "makingOf": "Proses Pembuatan"
+    "prompts": "Gesaan"
   },
   "footer": {
     "tagline": "Dipertingkatkan dengan alat AI untuk projek mini CCS3600.",
@@ -137,10 +136,6 @@
   "prompts": {
     "title": "Contoh Gesaan",
     "intro": "Gesaan sebenar yang digunakan merentas saluran berbantukan AI, disusun mengikut peringkat."
-  },
-  "makingOf": {
-    "title": "Proses Pembuatan: Penyampaian Web Tiga Bahasa",
-    "intro": "Dokumentasi Fasa 2 — cara laman web ini sendiri dirancang dan dibina dengan Claude Code, berserta gesaan dan alat yang digunakan."
   },
   "notFound": {
     "title": "Halaman tidak dijumpai",

@@ -9,7 +9,7 @@ const DIR = path.join(process.cwd(), "content", "reports");
  * Files are read at build time (pages are statically generated).
  */
 export async function getReportMarkdown(
-  slug: "report" | "prompts" | "making-of",
+  slug: "report" | "prompts",
   locale: string,
 ): Promise<string> {
   const candidate = path.join(DIR, `${slug}.${locale}.md`);

@@ -13,7 +13,6 @@ const ITEMS = [
   { href: "/resources", key: "resources" },
   { href: "/report", key: "report" },
   { href: "/prompts", key: "prompts" },
-  { href: "/making-of", key: "makingOf" },
 ] as const;
 
 export default function Nav({ locale }: { locale: string }) {

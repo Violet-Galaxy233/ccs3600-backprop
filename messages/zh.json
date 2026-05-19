@@ -20,8 +20,7 @@
     "quiz": "测验",
     "resources": "资源",
     "report": "报告",
-    "prompts": "提示词",
-    "makingOf": "制作过程"
+    "prompts": "提示词"
   },
   "footer": {
     "tagline": "为 CCS3600 迷你项目使用 AI 工具进行增强。",
@@ -137,10 +136,6 @@
   "prompts": {
     "title": "提示词示例",
     "intro": "AI 辅助流程中按阶段组织的实际提示词。"
-  },
-  "makingOf": {
-    "title": "制作过程：三语网站交付",
-    "intro": "第二阶段文档 —— 本网站本身如何使用 Claude Code 规划与构建，以及所用的提示词和工具。"
   },
   "notFound": {
     "title": "页面未找到",
