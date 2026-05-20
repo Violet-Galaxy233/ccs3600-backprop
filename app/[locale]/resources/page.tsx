@@ -47,6 +47,13 @@ export default async function ResourcesPage({
       size: site.downloads.prompts.size,
       icon: "💬",
     },
+    {
+      title: t("quizFormsTitle"),
+      desc: t("quizFormsDesc"),
+      href: site.downloads.quizForms.href,
+      size: site.downloads.quizForms.size,
+      icon: "📋",
+    },
   ];
 
   return (

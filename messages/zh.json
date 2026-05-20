@@ -35,6 +35,8 @@
     "kicker": "CCS3600 · 人工智能",
     "title": "神经网络中的反向传播",
     "subtitle": "让现代深度学习成为可能的算法 —— 以交互式、三语学习包的形式讲解。",
+    "teamLabel": "小组成员",
+    "teamLead": "主导",
     "ctaLecture": "开始学习讲解",
     "ctaQuiz": "进行测验",
     "overviewTitle": "探索每个部分",
@@ -132,6 +134,8 @@
     "reportDesc": "成果 4 —— 覆盖项目各阶段的完整报告。",
     "promptsTitle": "提示词示例（PDF）",
     "promptsDesc": "成果 5 —— AI 辅助流程中实际使用的提示词。",
+    "quizFormsTitle": "测验题库 — Google Forms 导入（TXT）",
+    "quizFormsDesc": "20 道题已按 Google Forms 测验粘贴格式整理，附带 Quizizz / Kahoot 用的 CSV 行。",
     "download": "下载",
     "sizeLabel": "大小"
   },

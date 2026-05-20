@@ -35,6 +35,8 @@
     "kicker": "CCS3600 · Kecerdasan Buatan",
     "title": "Perambatan Balik dalam Rangkaian Neural",
     "subtitle": "Algoritma yang membolehkan pembelajaran mendalam moden — diterangkan sebagai pakej pembelajaran interaktif tiga bahasa.",
+    "teamLabel": "Ahli Kumpulan",
+    "teamLead": "ketua",
     "ctaLecture": "Mula kuliah",
     "ctaQuiz": "Ambil kuiz",
     "overviewTitle": "Terokai setiap bahagian",
@@ -132,6 +134,8 @@
     "reportDesc": "Hasil 4 — laporan menyeluruh meliputi setiap peringkat projek.",
     "promptsTitle": "Contoh gesaan (PDF)",
     "promptsDesc": "Hasil 5 — gesaan sebenar yang digunakan merentas saluran berbantukan AI.",
+    "quizFormsTitle": "Kuiz — import Google Forms (TXT)",
+    "quizFormsDesc": "Semua 20 soalan diformat untuk ditampal ke kuiz Google Forms, plus blok baris CSV untuk Quizizz / Kahoot.",
     "download": "Muat turun",
     "sizeLabel": "Saiz"
   },

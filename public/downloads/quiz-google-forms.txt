@@ -1,0 +1,308 @@
+================================================================
+GOOGLE FORMS — AUTO-GRADED QUIZ
+Back Propagation Neural Networks (CCS3600, Topic 10)
+Team: Yue Chenghao (227154, lead), Huajie (226758), Li Mingzhu (226829)
+================================================================
+
+HOW TO USE THIS FILE
+--------------------
+1. Create a new Google Form.
+2. Settings  ->  "Make this a quiz"  -> turn ON.
+   - Release grade: "Immediately after each submission"
+   - Default point value: 1
+3. For each question below, in Google Forms:
+   a) Click "+" to add a question.
+   b) Choose type "Multiple choice".
+   c) Copy the question text from the "Q:" line.
+   d) Copy the four options from "A./B./C./D." lines (in Section B
+      the two options are True / False).
+   e) Click "Answer key" -> select the option marked [CORRECT]
+      and set Points = 1.
+   f) Click "Add answer feedback":
+      - paste the "Feedback (correct):" text into the "Correct" box
+      - paste the "Feedback (incorrect):" text into the "Incorrect" box
+4. After all 20 questions are added, share the Form link.
+   Pass mark: 12 / 20.
+
+================================================================
+SECTION A — MULTIPLE CHOICE (Q1 - Q15)
+================================================================
+
+Q1.
+Q: What does the term "backpropagation" stand for?
+A. Backward processing of perceptrons
+B. Backward propagation of errors   [CORRECT]
+C. Batch propagation of activations
+D. Bidirectional propagation of weights
+Points: 1
+Feedback (correct): Correct. "Backpropagation" is short for backward propagation of errors. It fine-tunes the weights of a neural network based on the error rate obtained in the previous epoch. (Original slide 2)
+Feedback (incorrect): The answer is B. "Backpropagation" = backward propagation of errors. The other options misuse the abbreviation. (Original slide 2)
+
+----------------------------------------------------------------
+
+Q2.
+Q: Backpropagation is best described as a method that:
+A. Defines how the computed gradient is used to update weights
+B. Randomly initializes the network weights before training
+C. Calculates the gradient of the loss function with respect to each weight   [CORRECT]
+D. Replaces the need for a loss function during training
+Points: 1
+Feedback (correct): Correct. Backpropagation computes the gradient of the loss with respect to every weight; this enables each weight to be updated to reduce the loss. (Original slides 3 & 16)
+Feedback (incorrect): The answer is C. Note that option A is deliberately wrong: backpropagation computes the gradient but does NOT define how the gradient is used — that is the optimizer's job (e.g., gradient descent). (Original slides 3 & 16)
+
+----------------------------------------------------------------
+
+Q3.
+Q: In which direction does backpropagation compute gradients through the network?
+A. From the first layer forward to the last layer
+B. Simultaneously across all layers in parallel
+C. From the last layer backward to the first layer   [CORRECT]
+D. Only within the output layer
+Points: 1
+Feedback (correct): Correct. Backpropagation proceeds backwards — derivatives at layer N are computed first, then reused via the chain rule for layer N-1, and so on back to layer 1. (Original slides 3 & 15)
+Feedback (incorrect): The answer is C. Gradients are computed from the last layer back to the first, reusing later-layer derivatives via the chain rule. (Original slides 3 & 15)
+
+----------------------------------------------------------------
+
+Q4.
+Q: What is the defining property of a feed-forward neural network?
+A. The connections between nodes do not form a cycle   [CORRECT]
+B. Every node is connected back to the input layer
+C. Information can flow in both directions
+D. It always contains exactly one hidden layer
+Points: 1
+Feedback (correct): Correct. A feed-forward network has no cycles; information flows in one direction only. A network with cycles is a recurrent neural network — the opposite of feed-forward. (Original slide 4)
+Feedback (incorrect): The answer is A. The defining property is the absence of cycles. Networks with cycles are recurrent networks. (Original slide 4)
+
+----------------------------------------------------------------
+
+Q5.
+Q: In a single-layer perceptron, if the sum of weighted inputs is BELOW the threshold (usually 0), the typical output is:
+A. 0
+B. 1
+C. -1   [CORRECT]
+D. The exact value of the sum
+Points: 1
+Feedback (correct): Correct. In the simplest perceptron model: sum above threshold (usually 0) -> output 1; sum below threshold -> output -1. (Original slide 5)
+Feedback (incorrect): The answer is C. Below threshold the typical perceptron output is -1; above threshold it is 1. (Original slide 5)
+
+----------------------------------------------------------------
+
+Q6.
+Q: The delta rule allows a single-layer perceptron to:
+A. Skip the activation function entirely
+B. Compare its node outputs with the intended values and adjust weights through training   [CORRECT]
+C. Convert itself into a recurrent network
+D. Eliminate the need for input weights
+Points: 1
+Feedback (correct): Correct. The delta rule lets the network compare its outputs with the intended values and adjust weights to produce more accurate results. In multilayer perceptrons, this weight-update process is generalized as backpropagation. (Original slide 6)
+Feedback (incorrect): The answer is B. The delta rule is a weight-update rule based on output-vs-target comparison. (Original slide 6)
+
+----------------------------------------------------------------
+
+Q7.
+Q: In the multilayer feedforward formula, the input to layer i is:
+A. The original network input vector x for every layer
+B. The output of the previous layer (layer i-1)   [CORRECT]
+C. A fresh random vector at each layer
+D. The final layer's output hN
+Points: 1
+Feedback (correct): Correct. Each layer takes the previous layer's output as its input: h1 = f1(W1*x + b1), h2 = f2(W2*h1 + b2), and so on. Only the first hidden layer takes the raw input x. (Original slides 9-10)
+Feedback (incorrect): The answer is B. Only the first hidden layer takes x; every subsequent layer takes the previous layer's output. (Original slides 9-10)
+
+----------------------------------------------------------------
+
+Q8.
+Q: In the formula symbols, fi (the activation function of hidden layer i) could be:
+A. A sigmoid, ReLU, or tanh function   [CORRECT]
+B. The bias matrix of the layer
+C. The number of layers in the network
+D. The input vector to the network
+Points: 1
+Feedback (correct): Correct. fi is the activation function of hidden layer i — sigmoid, ReLU, tanh, etc. The bias matrix (bi), layer count (N), and input vector (x) are separate symbols. (Original slide 10)
+Feedback (incorrect): The answer is A. fi denotes the activation function; common choices are sigmoid, ReLU and tanh. (Original slide 10)
+
+----------------------------------------------------------------
+
+Q9.
+Q: How does the loss (cost) function C behave?
+A. Returns a high value when the output is close to the label
+B. Returns a low value when the output is close to the label   [CORRECT]
+C. Stays constant throughout training
+D. Is only defined for recurrent networks
+Points: 1
+Feedback (correct): Correct. The loss is low when the network output is close to the label and high when it differs. At the start of training the loss is large; a well-trained model has a small loss. (Original slides 11-12)
+Feedback (incorrect): The answer is B. Small loss = good prediction; large loss = bad prediction. (Original slides 11-12)
+
+----------------------------------------------------------------
+
+Q10.
+Q: Which of the following is an example of a loss function mentioned in the courseware?
+A. Fast Fourier Transform
+B. Cross-entropy loss   [CORRECT]
+C. The delta rule
+D. Gradient descent
+Points: 1
+Feedback (correct): Correct. Example losses given include cross-entropy, cosine similarity, and hinge loss. FFT is a signal-processing step (speech recognition); the delta rule is a weight-update rule; gradient descent is an optimizer. (Original slide 12)
+Feedback (incorrect): The answer is B. Cross-entropy is a loss function. The others are not — they belong to different parts of the pipeline. (Original slide 12)
+
+----------------------------------------------------------------
+
+Q11.
+Q: The weight notation w(i,j,k) refers to the weight going from:
+A. Node k in layer i to node j in layer i+1
+B. Node j in layer i-1 to node k in layer i   [CORRECT]
+C. The bias of layer i to its output
+D. The input vector directly to the output layer
+Points: 1
+Feedback (correct): Correct. w(i,j,k) denotes the weight from node j in layer (i-1) to node k in layer i. To minimize C, we need the derivative of C with respect to every such weight. (Original slide 13)
+Feedback (incorrect): The answer is B. The indices mean: from node j (in layer i-1) into node k (in layer i). (Original slide 13)
+
+----------------------------------------------------------------
+
+Q12.
+Q: The chain rule states that for z depending on y, and y depending on x:
+A. dz/dx = dz/dy + dy/dx
+B. dz/dx = dz/dy - dy/dx
+C. dz/dx = (dz/dy) * (dy/dx)   [CORRECT]
+D. dz/dx = (dz/dy) / (dy/dx)
+Points: 1
+Feedback (correct): Correct. The chain rule of calculus: dz/dx = (dz/dy)*(dy/dx). Because C depends on weights via many nested functions, the chain rule is applied recursively. (Original slide 14)
+Feedback (incorrect): The answer is C. Chain rule: dz/dx is the product of dz/dy and dy/dx. (Original slide 14)
+
+----------------------------------------------------------------
+
+Q13.
+Q: Why is the backpropagation algorithm EFFICIENT compared to computing each weight's derivative separately?
+A. It ignores most of the weights to save time
+B. It saves and re-uses derivative calculations from later layers via the chain rule, avoiding duplicate computation   [CORRECT]
+C. It computes all layers fully in parallel with no dependencies
+D. It replaces the chain rule with a single matrix inversion
+Points: 1
+Feedback (correct): Correct. Computing each weight's derivative separately would be extremely inefficient. Backpropagation first computes derivatives at layer N; these are ingredients in the chain-rule formula for layer N-1, so they are saved and reused — avoiding duplicate work. (Original slide 15)
+Feedback (incorrect): The answer is B. Efficiency comes from reusing later-layer derivatives via the chain rule rather than recomputing them. (Original slide 15)
+
+----------------------------------------------------------------
+
+Q14.
+Q: In the backpropagation procedure, the error at the output is computed as:
+A. Desired Output - Input
+B. Actual Output - Desired Output   [CORRECT]
+C. Actual Output + Desired Output
+D. Desired Output * Weights
+Points: 1
+Feedback (correct): Correct. ErrorB = Actual Output - Desired Output. The algorithm then travels back from output to hidden layers, adjusting weights to decrease this error. (Original slide 17)
+Feedback (incorrect): The answer is B. The error at the output is Actual Output minus Desired Output. (Original slide 17)
+
+----------------------------------------------------------------
+
+Q15.
+Q: Backpropagation Through Time (BPTT) handles a recurrent network by:
+A. Deleting all cycles permanently from the network
+B. "Unrolling" the network across time steps so it can be viewed like a feed-forward network   [CORRECT]
+C. Training only the output layer and ignoring the rest
+D. Converting the loss function into an activation function
+Points: 1
+Feedback (correct): Correct. A recurrent network has cycles, so it is not a DAG directly. BPTT "unrolls" the network — each time step is a copy — and then trains it like a feed-forward network. (Original slides 18-19)
+Feedback (incorrect): The answer is B. BPTT unrolls the recurrent network in time so it can be treated like a feed-forward network for training. (Original slides 18-19)
+
+================================================================
+SECTION B — TRUE / FALSE (Q16 - Q20)
+================================================================
+For each item below, use a "Multiple choice" question with two
+options: True and False.
+
+----------------------------------------------------------------
+
+Q16.
+Q: Backpropagation both computes the gradient AND defines how that gradient is used to update the weights.
+True
+False   [CORRECT]
+Points: 1
+Feedback (correct): Correct. Backpropagation computes the gradient but does NOT define how it is used — that is handled by a separate optimizer (e.g., stochastic gradient descent). It also generalizes the delta-rule computation. (Original slide 16)
+Feedback (incorrect): The answer is False. Backpropagation only computes the gradient; the optimizer (e.g., SGD) decides how that gradient updates the weights. (Original slide 16)
+
+----------------------------------------------------------------
+
+Q17.
+Q: The vanishing gradient problem in backpropagation-through-time can be addressed by choosing ReLU activation functions and introducing regularization.
+True   [CORRECT]
+False
+Points: 1
+Feedback (correct): Correct. With inputs far apart in time, gradient contributions become diminishingly small relative to local effects — the vanishing gradient problem. The courseware states this can be addressed via ReLU activations and regularization. (Original slide 19)
+Feedback (incorrect): The answer is True. The courseware lists ReLU activations and regularization as ways to address vanishing gradients in BPTT. (Original slide 19)
+
+----------------------------------------------------------------
+
+Q18.
+Q: In the face-recognition example (Parkhi, Vidaldi & Zisserman, 2015), the triplet loss penalizes the network for classifying images of different people as similar, and images of the same person as different.
+True   [CORRECT]
+False
+Points: 1
+Feedback (correct): Correct. An 18-layer CNN was trained with backpropagation; the final layer used a triplet loss that takes three images at once (e.g., two of Matt Damon, one of Brad Pitt) and penalizes treating same-person as different or different-people as similar. (Original slide 25)
+Feedback (incorrect): The answer is True. Triplet loss penalizes both errors: same-person classed as different, and different-people classed as similar. (Original slide 25)
+
+----------------------------------------------------------------
+
+Q19.
+Q: The Sony speech-recognition system trained on Japanese and then adapted to English is an example of transfer learning.
+True   [CORRECT]
+False
+Points: 1
+Feedback (correct): Correct. The system applied an FFT to windowed sound, fed the frequency features into a 5-layer network with softmax cross-entropy loss, trained it on Japanese commands, then re-trained/adapted it for English — a textbook example of transfer learning. (Original slide 26)
+Feedback (incorrect): The answer is True. Re-using a network trained on one task/language for another task/language is transfer learning. (Original slide 26)
+
+----------------------------------------------------------------
+
+Q20.
+Q: Augustin-Louis Cauchy is credited as the inventor of gradient descent.
+True   [CORRECT]
+False
+Points: 1
+Feedback (correct): Correct. The history section credits Augustin-Louis Cauchy (1789-1857) as the inventor of gradient descent, the optimization idea underlying backpropagation. (Original slide 27)
+Feedback (incorrect): The answer is True. Cauchy is credited with inventing gradient descent. (Original slide 27)
+
+================================================================
+ANSWER KEY (for quick verification)
+================================================================
+Q1=B   Q2=C   Q3=C   Q4=A   Q5=C
+Q6=B   Q7=B   Q8=A   Q9=B   Q10=B
+Q11=B  Q12=C  Q13=B  Q14=B  Q15=B
+Q16=False  Q17=True  Q18=True  Q19=True  Q20=True
+
+Total: 20 points  ·  Suggested pass mark: 12 / 20  (60%)
+
+================================================================
+ALTERNATIVE — QUIZIZZ / KAHOOT CSV ROW FORMAT
+================================================================
+Quizizz and Kahoot accept spreadsheet/CSV import. Use one row per
+question with the columns:
+
+  Question, OptionA, OptionB, OptionC, OptionD, CorrectIndex, TimeSec, Points
+
+CorrectIndex is 1..4 for MCQ and 1..2 for T/F (1=True, 2=False).
+The 20 rows below can be pasted into a spreadsheet directly.
+
+1. "What does the term \"backpropagation\" stand for?","Backward processing of perceptrons","Backward propagation of errors","Batch propagation of activations","Bidirectional propagation of weights",2,30,1
+2. "Backpropagation is best described as a method that:","Defines how the computed gradient is used to update weights","Randomly initializes the network weights before training","Calculates the gradient of the loss function with respect to each weight","Replaces the need for a loss function during training",3,30,1
+3. "In which direction does backpropagation compute gradients through the network?","From the first layer forward to the last layer","Simultaneously across all layers in parallel","From the last layer backward to the first layer","Only within the output layer",3,30,1
+4. "What is the defining property of a feed-forward neural network?","The connections between nodes do not form a cycle","Every node is connected back to the input layer","Information can flow in both directions","It always contains exactly one hidden layer",1,30,1
+5. "In a single-layer perceptron, if the sum of weighted inputs is below the threshold (usually 0), the typical output is:","0","1","-1","The exact value of the sum",3,30,1
+6. "The delta rule allows a single-layer perceptron to:","Skip the activation function entirely","Compare its node outputs with the intended values and adjust weights through training","Convert itself into a recurrent network","Eliminate the need for input weights",2,30,1
+7. "In the multilayer feedforward formula, the input to layer i is:","The original network input vector x for every layer","The output of the previous layer (layer i-1)","A fresh random vector at each layer","The final layer's output hN",2,30,1
+8. "In the formula symbols, fi could be:","A sigmoid, ReLU, or tanh function","The bias matrix of the layer","The number of layers in the network","The input vector to the network",1,30,1
+9. "How does the loss (cost) function C behave?","Returns a high value when the output is close to the label","Returns a low value when the output is close to the label","Stays constant throughout training","Is only defined for recurrent networks",2,30,1
+10. "Which of the following is an example of a loss function mentioned in the courseware?","Fast Fourier Transform","Cross-entropy loss","The delta rule","Gradient descent",2,30,1
+11. "The weight notation w(i,j,k) refers to the weight going from:","Node k in layer i to node j in layer i+1","Node j in layer i-1 to node k in layer i","The bias of layer i to its output","The input vector directly to the output layer",2,30,1
+12. "The chain rule states that for z depending on y, and y depending on x:","dz/dx = dz/dy + dy/dx","dz/dx = dz/dy - dy/dx","dz/dx = (dz/dy) * (dy/dx)","dz/dx = (dz/dy) / (dy/dx)",3,30,1
+13. "Why is the backpropagation algorithm efficient compared to computing each weight's derivative separately?","It ignores most of the weights to save time","It saves and re-uses derivative calculations from later layers via the chain rule, avoiding duplicate computation","It computes all layers fully in parallel with no dependencies","It replaces the chain rule with a single matrix inversion",2,30,1
+14. "In the backpropagation procedure, the error at the output is computed as:","Desired Output - Input","Actual Output - Desired Output","Actual Output + Desired Output","Desired Output * Weights",2,30,1
+15. "Backpropagation Through Time (BPTT) handles a recurrent network by:","Deleting all cycles permanently from the network","\"Unrolling\" the network across time steps so it can be viewed like a feed-forward network","Training only the output layer and ignoring the rest","Converting the loss function into an activation function",2,30,1
+16. "TRUE/FALSE: Backpropagation both computes the gradient AND defines how that gradient is used to update the weights.","True","False",,,2,30,1
+17. "TRUE/FALSE: The vanishing gradient problem in BPTT can be addressed by choosing ReLU activation functions and introducing regularization.","True","False",,,1,30,1
+18. "TRUE/FALSE: In the face-recognition example (Parkhi et al., 2015), the triplet loss penalizes treating same-person as different and different-people as similar.","True","False",,,1,30,1
+19. "TRUE/FALSE: The Sony speech-recognition system trained on Japanese and then adapted to English is an example of transfer learning.","True","False",,,1,30,1
+20. "TRUE/FALSE: Augustin-Louis Cauchy is credited as the inventor of gradient descent.","True","False",,,1,30,1
+
+================================================================
+End of file.

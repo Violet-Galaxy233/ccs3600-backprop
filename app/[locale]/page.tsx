@@ -41,6 +41,20 @@ export default async function Home({
           <p className="mt-5 max-w-2xl text-lg text-fg-muted">
             {t("subtitle")}
           </p>
+          <p className="mt-6 max-w-3xl text-sm text-fg-muted">
+            <span className="font-semibold text-fg">{t("teamLabel")}：</span>
+            {site.team.map((m, i) => (
+              <span key={m.matricNo}>
+                {i > 0 && <span className="mx-2 text-border">·</span>}
+                <span className="text-fg">{m.name}</span>
+                <span className="text-fg-muted">
+                  {" "}
+                  ({m.matricNo}
+                  {m.lead ? `, ${t("teamLead")}` : ""})
+                </span>
+              </span>
+            ))}
+          </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/lecture"

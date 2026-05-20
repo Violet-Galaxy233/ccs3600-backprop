@@ -8,6 +8,11 @@
 export const site = {
   repo: "ccs3600-backprop",
   courseCode: "CCS3600",
+  team: [
+    { name: "Yue Chenghao", matricNo: "227154", lead: true },
+    { name: "Huajie", matricNo: "226758", lead: false },
+    { name: "Li Mingzhu", matricNo: "226829", lead: false },
+  ] as const,
   video: {
     provider: "file" as "file" | "youtube",
     fileSrc: "/video/back-propagation.mp4",
@@ -35,6 +40,10 @@ export const site = {
     prompts: {
       href: "/downloads/prompts.pdf",
       size: "333 KB",
+    },
+    quizForms: {
+      href: "/downloads/quiz-google-forms.txt",
+      size: "21 KB",
     },
   },
   facts: {

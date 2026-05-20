@@ -2,6 +2,7 @@
 
 Course: CCS3600 Artificial Intelligence (Natural Language Processing)
 Project: AI-Assisted Teaching Content Enhancement, Topic 10: Back Propagation
+Team: Yue Chenghao (227154, lead) · Huajie (226758) · Li Mingzhu (226829)
 Deliverable 5: example prompts used with the AI tools.
 
 These are the prompts I actually used, grouped by the stage they belong to, and they cover the whole project — the slides, the video, the quiz, the website, and the deployment — not just the deck.

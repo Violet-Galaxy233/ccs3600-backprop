@@ -4,6 +4,8 @@ The final presentation form of the CCS3600 *AI-Assisted Teaching Content
 Enhancement* mini-project (Topic 10: Back Propagation). It unifies every
 deliverable into one responsive, trilingual website.
 
+**Team:** Yue Chenghao (227154, lead) · Huajie (226758) · Li Mingzhu (226829)
+
 **Languages:** English · 简体中文 · Bahasa Melayu (language switcher; English
 fallback for any not-yet-finalized strings).
 

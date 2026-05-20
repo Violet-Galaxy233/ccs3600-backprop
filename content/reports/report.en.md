@@ -2,6 +2,7 @@
 
 Course: CCS3600 Artificial Intelligence (Natural Language Processing)
 Project: AI-Assisted Teaching Content Enhancement, Topic 10: Back Propagation
+Team: Yue Chenghao (227154, lead) · Huajie (226758) · Li Mingzhu (226829)
 This is the tools-and-workflow report (Deliverable 4). Its companion, the prompt examples, is a separate document (Deliverable 5).
 
 This report covers the **whole** project, not just the slides. The brief asks for three things — improved slides, a lecture video, and an auto-graded activity — plus the report and prompt examples. I did all of those, and then I went one step further and pulled every piece into a single trilingual website that is the actual thing handed in. So the workflow below runs from the original PowerPoint all the way to a deployed site.
