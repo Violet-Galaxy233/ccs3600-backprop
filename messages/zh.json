@@ -53,8 +53,8 @@
         "desc": "20 道题，即时反馈、详解与实时得分。"
       },
       "resources": {
-        "title": "幻灯片与资源",
-        "desc": "下载增强版幻灯片（PPTX）与导出的 PDF。"
+        "title": "下载",
+        "desc": "每项成果都可下载 —— 幻灯片、视频、报告与提示词示例。"
       },
       "report": {
         "title": "工具与工作流",
@@ -120,12 +120,18 @@
     "answeredCount": "已作答 {answered} / {total}"
   },
   "resources": {
-    "title": "幻灯片与资源",
-    "intro": "下载增强版教学材料。PPTX 为完全可编辑的 PowerPoint 文件。",
+    "title": "下载",
+    "intro": "项目全部成果均可在此下载：增强版幻灯片、讲解视频、报告与提示词示例。",
     "pptxTitle": "增强版幻灯片（PPTX）",
     "pptxDesc": "22 张重新设计的幻灯片 —— 原生可编辑的 PowerPoint。",
     "pdfTitle": "幻灯片（PDF）",
     "pdfDesc": "导出的源幻灯片，便于快速查看。",
+    "videoTitle": "讲解视频（MP4）",
+    "videoDesc": "AI 配音讲解，约 18 分钟，1080p H.264。",
+    "reportTitle": "工具与工作流报告（PDF）",
+    "reportDesc": "成果 4 —— 覆盖项目各阶段的完整报告。",
+    "promptsTitle": "提示词示例（PDF）",
+    "promptsDesc": "成果 5 —— AI 辅助流程中实际使用的提示词。",
     "download": "下载",
     "sizeLabel": "大小"
   },

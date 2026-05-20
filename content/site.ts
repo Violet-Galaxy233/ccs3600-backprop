@@ -24,6 +24,18 @@ export const site = {
       href: "/downloads/back-propagation-slides.pdf",
       size: "9 MB",
     },
+    video: {
+      href: "/video/back-propagation.mp4",
+      size: "98 MB",
+    },
+    report: {
+      href: "/downloads/report.pdf",
+      size: "291 KB",
+    },
+    prompts: {
+      href: "/downloads/prompts.pdf",
+      size: "333 KB",
+    },
   },
   facts: {
     slides: "22",

@@ -53,8 +53,8 @@
         "desc": "20 soalan dengan maklum balas serta-merta, penjelasan dan skor langsung."
       },
       "resources": {
-        "title": "Slaid & Sumber",
-        "desc": "Muat turun deck slaid dipertingkat (PPTX) dan PDF yang dieksport."
+        "title": "Muat Turun",
+        "desc": "Setiap hasil sebagai fail — slaid, video, laporan, dan contoh gesaan."
       },
       "report": {
         "title": "Alat & Aliran Kerja",
@@ -120,12 +120,18 @@
     "answeredCount": "{answered} daripada {total} dijawab"
   },
   "resources": {
-    "title": "Slaid & Sumber",
-    "intro": "Muat turun bahan pengajaran dipertingkat. PPTX ialah deck PowerPoint yang boleh disunting sepenuhnya.",
+    "title": "Muat Turun",
+    "intro": "Setiap hasil projek sebagai fail muat turun: slaid dipertingkat, video kuliah, laporan, dan contoh gesaan.",
     "pptxTitle": "Deck slaid dipertingkat (PPTX)",
     "pptxDesc": "22 slaid direka semula — PowerPoint yang boleh disunting secara asli.",
     "pdfTitle": "Slaid (PDF)",
     "pdfDesc": "Slaid sumber yang dieksport untuk tontonan pantas.",
+    "videoTitle": "Video kuliah (MP4)",
+    "videoDesc": "Kuliah dengan suara AI ~18 minit, 1080p H.264.",
+    "reportTitle": "Laporan alat & aliran kerja (PDF)",
+    "reportDesc": "Hasil 4 — laporan menyeluruh meliputi setiap peringkat projek.",
+    "promptsTitle": "Contoh gesaan (PDF)",
+    "promptsDesc": "Hasil 5 — gesaan sebenar yang digunakan merentas saluran berbantukan AI.",
     "download": "Muat turun",
     "sizeLabel": "Saiz"
   },

@@ -53,8 +53,8 @@
         "desc": "20 questions with instant feedback, explanations and a live score."
       },
       "resources": {
-        "title": "Slides & Resources",
-        "desc": "Download the enhanced slide deck (PPTX) and the exported PDF."
+        "title": "Downloads",
+        "desc": "Every deliverable as a file — slides, video, report, and prompt examples."
       },
       "report": {
         "title": "Tools & Workflow",
@@ -120,12 +120,18 @@
     "answeredCount": "{answered} of {total} answered"
   },
   "resources": {
-    "title": "Slides & Resources",
-    "intro": "Download the enhanced teaching materials. The PPTX is a fully editable PowerPoint deck.",
+    "title": "Downloads",
+    "intro": "Every deliverable as a downloadable file: the enhanced slides, the lecture video, the report, and the prompt examples.",
     "pptxTitle": "Enhanced slide deck (PPTX)",
     "pptxDesc": "22 redesigned slides — natively editable PowerPoint.",
     "pdfTitle": "Slides (PDF)",
     "pdfDesc": "Exported source slides for quick viewing.",
+    "videoTitle": "Lecture video (MP4)",
+    "videoDesc": "AI-narrated ~18-minute lecture, 1080p H.264.",
+    "reportTitle": "Tools & workflow report (PDF)",
+    "reportDesc": "Deliverable 4 — the end-to-end report covering every stage of the project.",
+    "promptsTitle": "Prompt examples (PDF)",
+    "promptsDesc": "Deliverable 5 — the actual prompts used across the AI-assisted pipeline.",
     "download": "Download",
     "sizeLabel": "Size"
   },

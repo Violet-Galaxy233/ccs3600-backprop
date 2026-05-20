@@ -15,7 +15,7 @@ fallback for any not-yet-finalized strings).
 | Lecture | The enhanced 22-slide deck rebuilt as native, responsive sections with KaTeX formulas |
 | Video | The ~18-minute AI-narrated lecture video |
 | Quiz | 20-question auto-graded quiz with instant feedback, explanations and a live score |
-| Resources | Download the enhanced PPTX and the PDF |
+| Resources | Download every deliverable — slides (PPTX/PDF), the lecture video, and the report and prompt examples (PDF) |
 | Report | AI tools & workflow report |
 | Prompts | Prompt examples used in the AI pipeline |
 

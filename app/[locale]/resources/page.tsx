@@ -26,6 +26,27 @@ export default async function ResourcesPage({
       size: site.downloads.pdf.size,
       icon: "📄",
     },
+    {
+      title: t("videoTitle"),
+      desc: t("videoDesc"),
+      href: site.downloads.video.href,
+      size: site.downloads.video.size,
+      icon: "🎬",
+    },
+    {
+      title: t("reportTitle"),
+      desc: t("reportDesc"),
+      href: site.downloads.report.href,
+      size: site.downloads.report.size,
+      icon: "📝",
+    },
+    {
+      title: t("promptsTitle"),
+      desc: t("promptsDesc"),
+      href: site.downloads.prompts.href,
+      size: site.downloads.prompts.size,
+      icon: "💬",
+    },
   ];
 
   return (
@@ -35,7 +56,7 @@ export default async function ResourcesPage({
       </h1>
       <p className="mt-3 max-w-2xl text-fg-muted">{t("intro")}</p>
 
-      <div className="mt-8 grid gap-4 sm:grid-cols-2">
+      <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {items.map((it) => (
           <a
             key={it.href}
